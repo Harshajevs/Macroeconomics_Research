@@ -31,7 +31,6 @@ import config as cfg
 
 TABLES = cfg.ROOT / "outputs" / "tables"
 FIGS = cfg.ROOT / "outputs" / "figures"
-DOCS = cfg.ROOT / "documentation"
 SEED = 20261114
 BOOT_REPS = 4999
 
@@ -380,7 +379,6 @@ def make_figures(stl_mom: pd.DataFrame, group_stats: pd.DataFrame, subgroup_stat
 def main():
     TABLES.mkdir(parents=True, exist_ok=True)
     FIGS.mkdir(parents=True, exist_ok=True)
-    DOCS.mkdir(parents=True, exist_ok=True)
     data = load_processed()
     src = load_source_export()
     raw_index = data[["headline", "food", "nonfood", "core", "cfpi", *cfg.WEIGHTS.keys()]].copy()

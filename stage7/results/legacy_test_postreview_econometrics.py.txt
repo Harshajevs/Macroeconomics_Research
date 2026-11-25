@@ -1,5 +1,0 @@
-ALL POST-REVIEW ECONOMETRIC BEHAVIOURAL TESTS PASSED
-/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/work/original_checkpoint1/src/estimate_baseline.py:133: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
-  bg6 = float(acorr_breusch_godfrey(res, nlags=6)[1])
-/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/work/original_checkpoint1/src/estimate_baseline.py:134: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
-  bg12 = float(acorr_breusch_godfrey(res, nlags=12)[1])

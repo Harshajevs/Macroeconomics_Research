@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 class ActualInputsOutputs(unittest.TestCase):
     def test_exact_source_snapshot_and_bulletin_resolutions(self):
-        for line in (ROOT/'documentation/pre_estimation_input_manifest.sha256').read_text().splitlines():
+        for line in (ROOT/'data/input_integrity.sha256').read_text().splitlines():
             digest,name=line.split('  ',1)
             self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),digest,name)
         d=pd.read_csv(ROOT/'data/processed/plfs_api_bulletin_reconciliation.csv').set_index('quarter_id')

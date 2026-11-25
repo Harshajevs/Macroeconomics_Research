@@ -17,7 +17,7 @@ def main():
         run(['stage7/src/audit_spillover.py','--mode','refresh'])
         run(['stage7/src/audit_spillover.py','--mode','calibrate','--reps','1000','--inner','999'])
         run(['src/stage6_aggregate_null_size_simulation.py','--reps','2000','--seed','45520261118','--output','stage7/results/phillips_design_null_calibration_reproduced.csv'])
-    run(['stage7/src/build_checkpoint.py'])
+    run(['stage7/src/export_results.py'])
     print('Offline reproduction finished. No report or LaTeX draft created.')
 
 if __name__=='__main__':main()

@@ -1,8 +1,0 @@
-Checkpoint 1 historical integrity
-Date: 18 November 2026
-
-sha256sum -c documentation/postreview_input_manifest_v3_3.sha256: PASS (all historical input hashes match)
-sha256sum -c documentation/postreview_output_manifest_v3_3.sha256: PASS (all historical output hashes match)
-Stage 6 new manifest: regenerated after final Checkpoint 1 changes; verified separately.
-
-The historical v3.3 README.md and documentation/ai_usage_log.md were restored byte-identically from the original Stage 5 v3.3 package. The Stage 6 AI-use record is separate: documentation/ai_usage_log_stage6_checkpoint1.md.

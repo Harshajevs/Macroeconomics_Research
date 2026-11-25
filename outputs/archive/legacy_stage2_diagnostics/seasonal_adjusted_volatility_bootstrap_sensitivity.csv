@@ -1,5 +1,0 @@
-# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
-statistic,estimate_pp,ci_2_5_pp,ci_97_5_pp,block_length_months,replications,seed,bootstrap_probability_difference_le_zero,method
-SD(seasonally adjusted food MoM log inflation) - SD(seasonally adjusted non-food MoM log inflation),0.67715609,0.51969633,0.84026332,6,4999,20261120,0.00000000,paired non-circular moving-block bootstrap
-SD(seasonally adjusted food MoM log inflation) - SD(seasonally adjusted non-food MoM log inflation),0.67715609,0.52158102,0.85722232,12,4999,20261126,0.00000000,paired non-circular moving-block bootstrap
-SD(seasonally adjusted food MoM log inflation) - SD(seasonally adjusted non-food MoM log inflation),0.67715609,0.51014940,0.84683891,18,4999,20261132,0.00000000,paired non-circular moving-block bootstrap

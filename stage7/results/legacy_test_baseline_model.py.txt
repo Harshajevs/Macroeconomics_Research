@@ -1,2 +1,0 @@
-ALL POST-REVIEW BASELINE OUTPUT TESTS PASSED
-These tests validate output structure and software behaviour, not causal identification.

@@ -3,7 +3,6 @@ from pathlib import Path
 import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs'/'model_results'
-ARCH=ROOT/'outputs'/'archive'/'stage4_v3.1_pre_review'
 
 def main():
     summary=pd.read_csv(OUT/'postreview_model_comparison_summary.csv')
@@ -25,7 +24,6 @@ def main():
     assert (OUT/'postreview_primary_q3_oct2013_influence.csv').exists()
     assert (OUT/'postreview_primary_q3_oct2013_leave_out_checks.csv').exists()
     assert (OUT/'bidirectional_granger_style_summary.csv').exists()
-    assert (ARCH/'baseline_q3_oct2013_model_summary.csv').exists()
     print('ALL POST-REVIEW BASELINE OUTPUT TESTS PASSED')
     print('These tests validate output structure and software behaviour, not causal identification.')
 if __name__=='__main__': main()

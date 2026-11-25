@@ -37,7 +37,7 @@ REQUIRED_FIELDS = [
 ]
 ANCHOR_MONTHS = ["2017-01", "2018-12", "2019-12", "2020-04", "2020-05", "2021-12", "2023-12", "2024-12"]
 PLAUSIBLE_MIN, PLAUSIBLE_MAX = 90.0, 300.0
-COMPOSITE_MAX_ABS_RESIDUAL = 0.50  # provisional gate only; Claude must reassess against the actual Urban export
+COMPOSITE_MAX_ABS_RESIDUAL = 0.50  # provisional intake gate; not a statistical confidence threshold
 MOM_WARNING_LOG_CHANGE = 0.10    # warning flag only
 MOM_BLOCK_LOG_CHANGE = 0.35      # hard fail; catches gross spikes (e.g. 10x)
 

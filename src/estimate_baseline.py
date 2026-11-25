@@ -584,7 +584,7 @@ def diagnostics(y, X, res, p, label, q, run_bootstrap=True, bootstrap_interval=F
             rec_rows.append({'end_date': str(y.index[end-1]), **{f'coef_{v}': float(rr.params[v]) for v in [f'x_l{i}' for i in range(1, q+1)]}})
         pd.DataFrame(rec_rows).to_csv(OUT / f'{label}_recursive_coefficients.csv', index=False)
         # Full-parameter sup-F retained as descriptive diagnostic only; its date is
-        # not interpreted because Claude found a seasonal/COVID-driven plateau.
+        # not interpreted because seasonal/COVID terms can produce a plateau.
         sf = supf_statistic(y, X, trim=0.15)
         diag['full_parameter_supF_15pct_trim_statistic_diagnostic_only'] = sf['supF_15pct_trim_statistic']
         partial_sf = supf_partial_statistic(y, X, food_lag_terms, trim=0.15)

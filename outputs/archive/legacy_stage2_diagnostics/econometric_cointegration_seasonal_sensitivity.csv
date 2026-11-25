@@ -1,6 +1,0 @@
-# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
-dependent_level,explanatory_level,seasonal_adjustment,trend_specification,EG_statistic,EG_pvalue,critical_5pct,interpretation,caution
-Non-food,Food,calendar-month fixed effects on log levels,c,-1.89427879,0.58290579,-3.37919163,Do not reject no cointegration at 5%,Deterministic monthly adjustment sensitivity; not official X-13 adjustment.
-Non-food,Food,calendar-month fixed effects on log levels,ct,-3.55677902,0.08715164,-3.84766814,Do not reject no cointegration at 5%,Deterministic monthly adjustment sensitivity; not official X-13 adjustment.
-Core,Food,calendar-month fixed effects on log levels,c,-1.89521203,0.58243331,-3.37919163,Do not reject no cointegration at 5%,Deterministic monthly adjustment sensitivity; not official X-13 adjustment.
-Core,Food,calendar-month fixed effects on log levels,ct,-3.12843210,0.21164493,-3.84766814,Do not reject no cointegration at 5%,Deterministic monthly adjustment sensitivity; not official X-13 adjustment.

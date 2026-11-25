@@ -1,7 +1,0 @@
-  sector frequency   n  covariance_share_percent
-Combined   MoM_raw 155                 88.709021
-Combined  MoM_STL7 155                 69.754376
-Combined   YoY_raw 144                 80.956813
-   Urban   MoM_raw 155                 79.845947
-   Urban  MoM_STL7 155                 61.391274
-   Urban   YoY_raw 144                 64.685713

@@ -36,7 +36,7 @@ def samples(d):
 
 def main():
     # Reject any drift in the pre-estimation inputs.
-    for line in (ROOT/'documentation/pre_estimation_input_manifest.sha256').read_text().splitlines():
+    for line in (ROOT/'data/input_integrity.sha256').read_text().splitlines():
         digest,name=line.split('  ',1)
         assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,name
     d=load_indices();transforms=transform(d)

@@ -97,7 +97,7 @@ def main():
     for directory in [raw,processed]:
         for p in sorted(directory.glob('*')):
             if p.is_file():manifest.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(ROOT)))
-    frozen=ROOT/'documentation/pre_estimation_input_manifest.sha256'
+    frozen=ROOT/'data/input_integrity.sha256'
     if frozen.exists():
         # Preserve the original pre-estimation snapshot on offline reproduction.
         for line in frozen.read_text().splitlines():

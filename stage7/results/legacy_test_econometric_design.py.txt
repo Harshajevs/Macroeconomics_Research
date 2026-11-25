@@ -1,3 +1,0 @@
-ALL POST-REVIEW DESCRIPTIVE/SPECIFICATION STRUCTURE TESTS PASSED
-Validated authentic CPI pipeline, corrected YoY labels, STL-MoM series, bootstrap sensitivities, subgroup weights, covariance decomposition and post-results v3.3 specification.
-Regression behaviour and outputs are validated separately by postreview tests.
