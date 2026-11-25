@@ -1,5 +1,0 @@
-sector,frequency,sample,component,n,covariance_share_percent,mean_contribution_pp,official_headline_variance
-Combined,MoM_raw,full_history,food_bev,155,88.70902098523526,0.1985719328977314,0.4439308714612723
-Combined,YoY_raw,full_history,food_bev,144,80.9568126847592,2.283629275775674,2.887593641953197
-Urban,MoM_raw,full_history,food_bev,155,79.84594679276566,0.1657500856280184,0.4087291684653218
-Urban,YoY_raw,full_history,food_bev,144,64.68571302666726,1.8836807533620907,2.3983640711212866

@@ -1,6 +1,6 @@
 # Repository release — 25 November 2026
 
-This release combines the completed research checkpoint with the final HS455 report and the earlier report versions. It introduces a current root README, a repository index and build-product exclusions. The research source, data, results and existing provenance records are preserved; the former root README is retained at `documentation/archive/pre_report_README.md`.
+This release combines the completed research checkpoint with the single final HS455 report and its supporting source. Intermediate report versions and their preparation scripts are excluded. It introduces a current root README, a repository index and build-product exclusions. The research source, data, results and existing provenance records are preserved; the former root README is retained at `documentation/archive/pre_report_README.md`.
 
 The 73 files in `report/` match the delivered final report package byte-for-byte. The report is 13 pages including its cover and appendices, with 3,970 main-text words under the documented count scope. No scientific model, calculation, figure data, report wording or conclusion was changed for publication.
 

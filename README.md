@@ -26,10 +26,8 @@ The price history uses the 2012-base CPI from January 2013 to December 2025. The
 | [`stage7/results/`](stage7/results/) | Estimates, sensitivity comparisons, bootstrap results and calibration outputs. |
 | [`stage7/documentation/`](stage7/documentation/) | Source register, claim ledger, methodological decisions, provenance and prior checkpoint records. |
 | [`src/`](src/), [`tests/`](tests/), [`data/`](data/), [`outputs/`](outputs/) | Preserved earlier research pipeline, tests, inputs and results used by the completed analysis. |
-| [`archive/report_versions/`](archive/report_versions/) | Earlier report versions and their supporting files, retained for history. The current report is in `report/`. |
-| [`archive/report_preparation/`](archive/report_preparation/) | Historical report-editing and packaging scripts. |
 
-Earlier checkpoint documents describe the state of the project at their creation. For current conclusions, use the final report and Stage 7 claim ledger. The former root README is preserved in [`documentation/archive/pre_report_README.md`](documentation/archive/pre_report_README.md). The final report contains 3,970 main-text words, 12 figures and 10 tables; its 13 pages include the cover, references and appendices.
+Only the final report and its supporting source are published in `report/`; intermediate report versions are excluded. Earlier research checkpoint documents describe the state of the project at their creation. For current conclusions, use the final report and Stage 7 claim ledger. The former root README is preserved in [`documentation/archive/pre_report_README.md`](documentation/archive/pre_report_README.md). The final report contains 3,970 main-text words, 12 figures and 10 tables; its 13 pages include the cover, references and appendices.
 
 ## Run the research
 
