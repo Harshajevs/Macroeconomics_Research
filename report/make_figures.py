@@ -22,7 +22,7 @@ def save(fig,name):
 def grid(ax):ax.grid(axis='y',alpha=.17);ax.set_axisbelow(True)
 # 1: matched time paths.
 dates=pd.PeriodIndex(yoy.index,freq='Q').to_timestamp()
-fig,ax=plt.subplots(2,1,figsize=(6.8,3.65),sharex=True,gridspec_kw={'height_ratios':[.8,1]})
+fig,ax=plt.subplots(2,1,figsize=(6.8,2.9),sharex=True,gridspec_kw={'height_ratios':[.8,1]})
 ax[0].plot(dates,yoy.unemployment,color=BLUE,marker='o',ms=2.5,lw=1.6)
 ax[0].set(ylabel='Unemployment (%)',ylim=(4.5,23))
 ax[0].annotate('20.8% in 2020Q2',(dates[8],20.8),xytext=(dates[12],21.4),fontsize=8,
@@ -47,7 +47,7 @@ for i,arr in enumerate(series):ax[1].scatter(np.full(len(arr),i+1)+np.linspace(-
 ax[1].set(title='B. Short-run core is less dispersed',xticks=[1,2,3,4],xticklabels=['H: YoY','C: YoY','H: q/q','C: q/q'],ylabel='Inflation (%)');ax[1].tick_params(axis='x',labelsize=8);grid(ax[1])
 fig.tight_layout(pad=.7,w_pad=1.3);save(fig,'02_distributions')
 # 3: sample-specific correlations; same variables, rows, ordering and scale.
-fig,ax=plt.subplots(1,2,figsize=(6.8,2.4))
+fig,ax=plt.subplots(1,2,figsize=(6.8,1.9))
 cols=['unemployment','headline','core_food_fuel_excluded'];names=['Unemployment','Headline','Core']
 for a,d,title in zip(ax,[yoy,yoy.loc[keep]],['All 27 quarters','Exclude three quarters (n = 24)']):
  corr=d[cols].corr();im=a.imshow(corr,vmin=-1,vmax=1,cmap='RdBu_r')
@@ -59,7 +59,7 @@ for a,d,title in zip(ax,[yoy,yoy.loc[keep]],['All 27 quarters','Exclude three qu
 fig.subplots_adjust(wspace=.5,left=.14,right=.88,bottom=.16,top=.84)
 cax=fig.add_axes([.91,.18,.018,.64]);fig.colorbar(im,cax=cax,ticks=[-1,0,1]);save(fig,'03_correlations')
 # 4: four actual scatter plots with fitted lines. Exclusion fits shown only over observed support.
-fig,ax=plt.subplots(2,2,figsize=(6.8,4.5),sharex=True,sharey='row')
+fig,ax=plt.subplots(2,2,figsize=(6.8,3.4),sharex=True,sharey='row')
 for row,(d,frequency) in enumerate([(yoy,'YoY log'),(qoq,'q/q SAAR')]):
  for col,(v,label) in enumerate([('headline','Headline'),('core_food_fuel_excluded','Core')]):
   a=ax[row,col];k=~d.index.isin(bad)
@@ -88,7 +88,7 @@ fig.tight_layout(pad=.6);save(fig,'05_slope_difference')
 lev=pd.read_csv(DATA/'results/unemployment_leverage.csv')
 loo=pd.read_csv(DATA/'results/phillips_leave_one_quarter_out.csv')
 loo=loo[loo['sample'].eq('full27')]
-fig,ax=plt.subplots(1,2,figsize=(6.8,2.25),gridspec_kw={'width_ratios':[1.1,1]})
+fig,ax=plt.subplots(1,2,figsize=(6.8,2.0),gridspec_kw={'width_ratios':[1.1,1]})
 ax[0].bar(np.arange(len(lev)),lev.share_of_ur_ss_percent,color=[RUST if q in bad else GREY for q in lev.quarter])
 ax[0].set(title='A. Unemployment variation',ylabel='Share of centred sum of squares (%)',ylim=(0,72),xticks=[0,8,16,24],xticklabels=['2018Q2','2020Q2','2022Q2','2024Q2'])
 ax[0].tick_params(axis='x',labelsize=7.5);ax[0].annotate('61.4%',(8,61.38),xytext=(12,64),fontsize=9,arrowprops={'arrowstyle':'-','color':RUST});grid(ax[0])
@@ -111,7 +111,7 @@ for dx,sector,color in [(-w/2,'Combined',BLUE),(w/2,'Urban',RUST)]:
  for bar,val in zip(bars,vals):a.text(bar.get_x()+bar.get_width()/2,4,f'{val:.2f}%',ha='center',va='bottom',color='white',weight='bold',fontsize=9)
 a.set(xticks=positions,xticklabels=['Monthly changes','Year-on-year changes'],ylabel='Food share (%)',ylim=(0,122));a.yaxis.set_major_locator(MultipleLocator(25));a.legend(frameon=False,ncol=2,loc='upper right');grid(a);fig.tight_layout(pad=.6);save(fig,'07_food_variance')
 # 8: raw monthly official inflation and component contributions in two baskets.
-fig,ax=plt.subplots(2,1,figsize=(6.8,3.8),sharex=True)
+fig,ax=plt.subplots(2,1,figsize=(6.8,3.1),sharex=True)
 for a,sector in zip(ax,['combined','urban']):
  d=pd.read_csv(DATA/f'data/processed/{sector}_MoM_raw_exact_contributions.csv',index_col='month');d.index=pd.to_datetime(d.index)
  h=d.sum(axis=1);other=h-d.food_bev
@@ -121,7 +121,7 @@ for a,sector in zip(ax,['combined','urban']):
  a.axhline(0,color=GREY,lw=.7);a.set(title=sector.title()+' CPI',ylabel='Percentage points');grid(a)
 ax[0].legend(frameon=False,ncol=3,fontsize=7.2,loc='upper left');fig.tight_layout(pad=.6,h_pad=.9);save(fig,'08_monthly_contributions')
 # 9: delayed sum vs current-plus-lags, different estimands clearly separated.
-s=pd.read_csv(DATA/'results/spillover_effect_intervals.csv');fig,a=plt.subplots(figsize=(6.8,2.8))
+s=pd.read_csv(DATA/'results/spillover_effect_intervals.csv');fig,a=plt.subplots(figsize=(6.8,2.4))
 for i,(direction,contrast,label) in enumerate([('food_to_nonfood','delayed_sum','Non-food: delayed 1–3'),('food_to_core','delayed_sum','Core: delayed 1–3'),('food_to_nonfood','current_plus_lags','Non-food: current + 1–3'),('food_to_core','current_plus_lags','Core: current + 1–3')]):
  r=s[s.direction.eq(direction)&s.contrast.eq(contrast)&s.method.eq('HC3')].iloc[0]
  a.errorbar(r.estimate,3-i,xerr=[[r.estimate-r.ci_low],[r.ci_high-r.estimate]],fmt='o',c=BLUE if contrast=='delayed_sum' else RUST,capsize=3,ms=5)

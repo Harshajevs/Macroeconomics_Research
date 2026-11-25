@@ -161,6 +161,9 @@ counttext=re.sub(r'[{}&~\\]',' ',counttext)
 wordcount=len(words(counttext));check('Main text at least 3900 and strictly under 4000 words',3900<=wordcount<4000)
 reader=PdfReader(BASE/'HS455_Report.pdf');texts=[p.extract_text() for p in reader.pages]
 check('Complete PDF including cover is at most thirteen pages',len(texts)<=13)
+for phrase,page in [('We match Urban prices with Urban unemployment.',3),('A second transformation is seasonally adjusted',4),('The monthly share is 89.07',10),('5 Conclusion and policy implications',12)]:
+ lines=[line.strip() for line in texts[page-1].splitlines() if line.strip()]
+ check('Fresh page start: '+phrase,lines[1].startswith(phrase))
 ref=next(i for i,s in enumerate(texts) if '\nReferences\n' in s)
 main_page_count=int(re.search(r'\\newlabel\{main:last\}\{\{[^}]+\}\{(\d+)\}',(BASE/'report.aux').read_text()).group(1))
 check('Main text has 10--12 pages',10<=main_page_count<=12)
@@ -170,6 +173,7 @@ for name in ['K Harshavardhan','2023MCB1216','Pasula Kohith','2023EEB1232','Smru
 cover_uris=[str(a.get_object().get('/A',{}).get('/URI','')) for a in reader.pages[0].get('/Annots',[])]
 for email in ['2023mcb1216@iitrpr.ac.in','2023eeb1232@iitrpr.ac.in']:
  check('Cover displays and links email: '+email,email in texts[0] and 'mailto:'+email in cover_uris)
+check('Cover links to the project repository','https://github.com/Harshajevs/Macroeconomics_Research' in cover_uris and 'Project Code:' in texts[0])
 check('Only the requested HS455 team appears on the cover','Counting, Hashing' not in texts[0] and '2023EEB1181' not in texts[0])
 log=(BASE/'report.log').read_text();check('No overflowing boxes or unresolved citations',not re.search(r'Overfull|undefined references|Citation .* undefined',log))
 figures=re.findall(r'\\fig\{([^}]+)\}',tex);check('Twelve vector figures embedded',len(figures)==12 and all((BASE/'assets'/f).is_file() for f in figures))
@@ -181,7 +185,7 @@ for annotation in ref_page.get('/Annots',[]):
     item=annotation.get_object();action=item.get('/A',{})
     if action.get('/S')=='/URI':
         uri_values.append(str(action.get('/URI')));uri_rects.append([float(z) for z in item['/Rect']])
-expected_uris=[u for u in re.findall(r'\\href\{([^}]+)\}',tex) if not u.startswith('mailto:')]
+expected_uris=re.findall(r'\\href\{([^}]+)\}',tex.split('\\begin{thebibliography}',1)[1])
 check('All ten references retain clickable source links',len(expected_uris)==10 and set(expected_uris).issubset(set(uri_values)))
 reference_height=max(r[3] for r in uri_rects)-min(r[1] for r in uri_rects)+40
 check('References occupy less than half the text height',reference_height<(float(ref_page.mediabox.height)-2*.65*72)/2)

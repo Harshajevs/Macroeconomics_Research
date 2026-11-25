@@ -25,6 +25,7 @@
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 \titlespacing*{\subsection}{0pt}{9pt}{4pt}
 \clubpenalty=10000\widowpenalty=10000\displaywidowpenalty=10000
+\interlinepenalty=10000
 \raggedbottom
 \renewcommand{\topfraction}{0.95}
 \renewcommand{\bottomfraction}{0.85}
@@ -41,7 +42,7 @@
 \renewcommand{\headrulewidth}{0.3pt}
 \newcommand{\tabnote}[1]{\par\vspace{2pt}{\footnotesize\emph{Note:} #1\par}}
 \newcommand{\source}[1]{{\footnotesize\emph{Source:} #1\par}}
-\newcommand{\fig}[4]{\begin{figure}[!htbp]\centering\includegraphics[width=0.95\linewidth]{#1}\caption{#2}\label{#3}\source{#4}\end{figure}}
+\newcommand{\fig}[4]{\begin{figure}[H]\centering\includegraphics[width=0.95\linewidth]{#1}\caption{#2}\label{#3}\source{#4}\end{figure}}
 \begin{document}
 \hypersetup{pageanchor=false}
 \newgeometry{margin=0.75in,top=0.67in,bottom=0.67in,headheight=14pt}
@@ -71,7 +72,8 @@ Headline Inflation, Core Inflation and Food-Price Variability}\\[0.60cm]
 \textbf{Name} & \textbf{Entry No.} & \textbf{Email}\\\midrule
 K Harshavardhan & 2023MCB1216 & \href{mailto:2023mcb1216@iitrpr.ac.in}{2023mcb1216@iitrpr.ac.in}\\
 Pasula Kohith & 2023EEB1232 & \href{mailto:2023eeb1232@iitrpr.ac.in}{2023eeb1232@iitrpr.ac.in}\\\bottomrule
-\end{tabular}}
+\end{tabular}}\\[0.45cm]
+{\normalsize\textbf{Project Code:} \href{https://github.com/Harshajevs/Macroeconomics_Research}{github.com/Harshajevs/Macroeconomics\_Research}}
 \end{center}
 \end{titlepage}
 \restoregeometry
@@ -106,6 +108,7 @@ We test the unemployment and variance hypotheses separately. A large food alloca
 
 The price data are monthly 2012-base CPI levels, January 2013--December 2025~\cite{cpiapi}. The unemployment series is the Periodic Labour Force Survey (PLFS), All-India Urban, persons aged 15 and above, Current Weekly Status (CWS). CWS uses the preceding seven days; the unemployment rate measures unemployed persons as a percentage of the labour force~\cite{plfs2024}. There are 27 matched quarters from 2018Q2 to 2024Q4.
 
+\newpage
 We match Urban prices with Urban unemployment. Combined CPI, covering rural and urban households, is used separately for the wider inflation-composition question. This avoids silently treating Urban labour-market evidence as national evidence. The redesigned PLFS begins in January 2025~\cite{plfschange}; it is not joined to the earlier quarterly series. Later-base CPI observations are also kept separate.
 
 Data checks found two unemployment API discrepancies. For 2019Q2, 21.6\% refers to the youth row rather than the required 15+ rate of 8.8\%. For 2019Q3, the API gives 8.1\%, while the published bulletin gives 8.3\%~\cite{plfs2019a,plfs2019b}. We retain the bulletin values and record both corrections. The other 25 observations agree with the bulletin transcription.
@@ -151,6 +154,7 @@ Pearson correlation measures linear association. Ordinary least squares (OLS) th
 \end{equation}
 The slope is an inflation percentage-point difference associated with a one-percentage-point difference in unemployment. Regressing $D_q=\pi_{C,q}-\pi_{H,q}$ on the same intercept and $U_q$ estimates $\delta$ directly. This uses the relationship between the two inflation outcomes, rather than comparing their separate significance levels.
 
+\newpage
 A second transformation is seasonally adjusted quarter-on-quarter annualised log inflation (q/q SAAR). Robust STL removes a seasonal component from monthly log indices, using period 12 and seasonal window 13. Adjusted logs are converted back to levels before quarterly averaging; inflation is $400\ln(\bar I_q^{SA}/\bar I_{q-1}^{SA})$. Annualisation changes the scale, not the forecast horizon. Annual inflation overlaps across quarters, while q/q inflation is more sensitive to seasonal adjustment; both are therefore reported.
 
 The full sample is compared with a fixed exclusion of 2020Q2, 2020Q3 and 2021Q2, leaving 24 quarters. April--May 2020 CPI includes component-specific macro-imputation~\cite{imputation}; the exclusion also captures exceptional pandemic labour-market conditions. We check alternative baskets, a calendar trend, seasonal settings and leave-one-quarter-out estimates.
@@ -192,9 +196,9 @@ Figure~\ref{fig:distribution} shows the observed distributions. Most unemploymen
 
 \fig{02_distributions.pdf}{Observed distributions. Boxes show quartiles and medians; dots show all observations. H: headline; C: core; q/q: seasonally adjusted annualised inflation.}{fig:distribution}{Matched-quarter datasets; calculations.}
 
-\fig{03_correlations.pdf}{YoY Pearson correlations: full and fixed-exclusion samples. U denotes unemployment. All correlations use matched rows.}{fig:correlation}{Matched Urban CPI and PLFS; calculations.}
-
 In the full sample, unemployment and annual headline inflation have correlation $+0.276$; for core it is $+0.370$. Positive signs mean that higher unemployment tends to occur alongside higher inflation across these observations. After exclusion, headline's correlation becomes $-0.080$, while core remains positive at $+0.537$. The core relationship is therefore not the expected negative one. A larger positive correlation cannot count as evidence supporting the hypothesis.
+
+\fig{03_correlations.pdf}{YoY Pearson correlations: full and fixed-exclusion samples. U denotes unemployment. All correlations use matched rows.}{fig:correlation}{Matched Urban CPI and PLFS; calculations.}
 
 Correlation compares direction and closeness after adjusting for each series' spread. The regression slope keeps percentage-point units, with $\hat\beta=r(s_\pi/s_U)$. Both are useful because removing volatile components changes inflation's spread as well as its relationship with unemployment. Their signs give the same answer here.
 
@@ -211,9 +215,9 @@ The fitted annual lines are $\hat\pi_H=4.3747+0.0943U$ and $\hat\pi_C=3.7507+0.1
 
 \input{tables/regressions}
 
-\fig{04_phillips_scatter.pdf}{Matched inflation--unemployment observations and OLS fits. Diamonds mark excluded quarters; dashed fits use only the exclusion sample's observed unemployment range.}{fig:scatter}{Matched-quarter datasets; calculations.}
-
 The full annual difference is $0.1228-0.0943=+0.0285$, and the q/q difference is also positive, $+0.162$. Under exclusion, headline becomes slightly negative but core remains positive. \textbf{Question 1 is therefore not supported by these four primary comparisons.} Annual $R^2$ is 0.076 for headline and 0.137 for core: the lines account for about 8\% and 14\% of their respective variation, with positive slopes. A closer positive fit does not support a stronger negative relationship. The identity $R^2=r^2$, so $0.276^2\approx0.076$, checks this calculation.
+
+\fig{04_phillips_scatter.pdf}{Matched inflation--unemployment observations and OLS fits. Diamonds mark excluded quarters; dashed fits use only the exclusion sample's observed unemployment range.}{fig:scatter}{Matched-quarter datasets; calculations.}
 
 \subsection{How far the unemployment result can be trusted}
 
@@ -257,6 +261,7 @@ The monthly contribution paths are consistent with the variance results. Food re
 
 \input{tables/variance_sensitivity}
 
+\newpage
 The monthly share is 89.07\% over the matched unemployment period, close to the full-history 88.71\%. Removing imputation-exposed changes gives 88.61\%, while pre-2020 and post-2021 shares remain high. This strengthens the answer to Question 2: food dominance survives the specified sample and data-quality checks. It is not driven solely by using a longer price series or retaining the exceptional collection period.
 
 The Urban CPI input contains 156 consecutive months and 1,092 group/general observations, without missing levels. Fifty-six independent anchor comparisons cover eight published months. Weighted groups reproduce Urban headline within 0.08034 index points. These checks support the data construction; they do not identify causal shocks or remove uncertainty about other samples.
@@ -276,9 +281,9 @@ The contribution table helps explain the large share: food has a slightly lower 
 
 Food's mean contribution is 0.941 percentage points in July and $-0.527$ in December. The larger calendar pattern helps explain why food contributes strongly to raw headline fluctuations. This descriptive pattern does not identify weather or supply effects. We retain seasonality because Question 2 concerns variation in the official unadjusted rate; removing it would change the question being answered.
 
-\fig{12_covariance_calculation.pdf}{Food allocation split into its own-variance and covariance terms. Both use official headline variance as the denominator.}{fig:covsplit}{Calculations from the same 155 monthly observations.}
-
 Food's contribution variance is 0.366607 and its covariance with other contributions is 0.027200. Their sum, 0.393807, is the covariance with headline. Dividing each by headline variance gives $82.58+6.13=88.71\%$. Thus most of food's allocation comes from its own fluctuation, with a smaller addition from moving with other contributions. This supplies the arithmetic reason for the result while leaving the source of those shared movements unidentified.
+
+\fig{12_covariance_calculation.pdf}{Food allocation split into its own-variance and covariance terms. Both use official headline variance as the denominator.}{fig:covsplit}{Calculations from the same 155 monthly observations.}
 
 \subsection{The extension: what we can conclude about spillovers}
 
@@ -293,6 +298,7 @@ The delayed sums are $-0.0035$ for non-food and $-0.0188$ for core. Their ranges
 \textbf{The extension gives no clear evidence of positive delayed predictability under this model, but small effects remain unresolved.} In a recursive non-food simulation, a delayed sum of 0.048 is detected only 5.4\% of the time under the specified persistent-error design. This is a scale comparison; the RBI's 0.048 is a different short-run ARDL quantity~\cite{patra2024}. Low detection power means a small effect can go unnoticed. Reverse predictability is also specification-dependent. We therefore cannot turn non-rejection into a claim that spillovers are zero. Food can dominate headline accounting even when later responses in other price groups are difficult to detect.
 
 \FloatBarrier
+\newpage
 \section{Conclusion and policy implications}
 \subsection{Conclusion}
 
