@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://api.mospi.gov.in/api/plfs/getData?indicator_code=3&frequency_code=2&year=2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024&age_code=1&gender_code=3&sector_code=2&limit=200&page=1",
+    "metadata": {
+      "page": 1,
+      "totalRecords": 621,
+      "totalPages": 4,
+      "recordPerPage": 200
+    },
+    "sha256": "8d2dac27a34da45886cb17b962a39f3d0c8051593000de0d32aa0018532ec1e1"
+  },
+  {
+    "url": "https://api.mospi.gov.in/api/plfs/getData?indicator_code=3&frequency_code=2&year=2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024&age_code=1&gender_code=3&sector_code=2&limit=200&page=2",
+    "metadata": {
+      "page": 2,
+      "totalRecords": 621,
+      "totalPages": 4,
+      "recordPerPage": 200
+    },
+    "sha256": "cf8beba03832a2b2a7b1d37da70f62c7d54edd15c2692f7f2998fb3a33c6b4ff"
+  },
+  {
+    "url": "https://api.mospi.gov.in/api/plfs/getData?indicator_code=3&frequency_code=2&year=2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024&age_code=1&gender_code=3&sector_code=2&limit=200&page=3",
+    "metadata": {
+      "page": 3,
+      "totalRecords": 621,
+      "totalPages": 4,
+      "recordPerPage": 200
+    },
+    "sha256": "5ad9e6eaedb5ffcbcc09522cfd7314d659b3f5761b2587d8279b7acb10759675"
+  },
+  {
+    "url": "https://api.mospi.gov.in/api/plfs/getData?indicator_code=3&frequency_code=2&year=2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024&age_code=1&gender_code=3&sector_code=2&limit=200&page=4",
+    "metadata": {
+      "page": 4,
+      "totalRecords": 621,
+      "totalPages": 4,
+      "recordPerPage": 200
+    },
+    "sha256": "6eee8da185cdfe26cb9b2728b4973f3beb9f9601dc4919dd5244135bff6467ea"
+  }
+]

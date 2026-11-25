@@ -1,0 +1,10 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+dependent_level,explanatory_level,selection_criterion,selected_p,selected_q,AIC,BIC,bounds_F,bounds_p_I0,bounds_p_I1,interpretation_at_5pct,caution
+Non-food,Food and Beverages,AIC,2,1,-1337.79550370,-1287.54644372,0.40217199,0.91963570,0.97323049,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Non-food,Food and Beverages,BIC,1,1,-1335.25979545,-1287.85428136,0.62591941,0.84295577,0.94053343,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Core,Food and Beverages,AIC,1,1,-1381.28781581,-1333.88230173,0.51362934,0.88317934,0.95858780,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Core,Food and Beverages,BIC,1,1,-1381.28781581,-1333.88230173,0.51362934,0.88317934,0.95858780,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Food and Beverages,Non-food,AIC,2,2,-928.61880838,-875.41392135,7.50683797,0.00058191,0.00262665,Evidence against no cointegration (F above upper bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Food and Beverages,Non-food,BIC,1,1,-923.45932900,-876.05381491,2.40321705,0.22153192,0.41952517,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Non-food (headline-derived),Food and Beverages,AIC,1,1,-1308.02071762,-1260.61520354,0.54692424,0.87156242,0.95357689,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.
+Non-food (headline-derived),Food and Beverages,BIC,1,1,-1308.02071762,-1260.61520354,0.54692424,0.87156242,0.95357689,No evidence of cointegration (F below lower bound),Exploratory lag-selection sensitivity; not a final ECM estimate.

@@ -1,0 +1,19 @@
+25 November 2026: 147 numerical/document checks passed.
+
+All research_data and numerical table files match the verified prior formal
+report byte-for-byte. The existing calculations were independently rechecked by
+the verifier. Data, models and numerical results were not changed for this revision.
+The checks cover moments, correlations, OLS estimates and fit, direct differences,
+HC3 ranges, leave-one-out results, variance allocations, calendar means and the
+own-variance/covariance calculation, as well as word count and document structure.
+The five required sections remain in order. Section 5 has separate Conclusion
+and Policy implications subsections. Main text is 3,970 words on 12 main pages.
+All references remain linked and occupy less than half a usable page.
+No overfull boxes or unresolved references remain. All 14 pages were rendered
+and visually inspected; the enlarged spillover plot was inspected again.
+
+EVIDENCE LIMITS
+Correct arithmetic and source agreement support the historical calculations.
+They do not establish a causal Phillips curve, identify independent food shocks,
+prove zero spillover, or validate the effectiveness of a specific policy.
+The report explicitly distinguishes these limits from its sample findings.

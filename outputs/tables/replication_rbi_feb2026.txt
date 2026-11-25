@@ -1,0 +1,17 @@
+REPLICATION CHECK: RBI Bulletin Feb 2026 (Mohan, Hasan, Sarkar, John), stylized facts, Apr 2016 to Aug 2025
+Months in window: 113
+
+Published YoY (Apr-May 2020 not compiled): n=111
+  mean 4.81 (RBI 4.9), SD 1.54 (RBI 1.5)
+  months above 6%: 27 = 24.3% (RBI about 26%)
+  months below 2%: 3 (RBI 3): ['2017-06', '2019-01', '2025-07']
+
+YoY computed from index (fills Apr-May 2020): n=113
+  mean 4.85 (RBI 4.9), SD 1.54 (RBI 1.5)
+  months above 6%: 29 = 25.7% (RBI about 26%)
+  months below 2%: 3 (RBI 3): ['2017-06', '2019-01', '2025-07']
+
+READING: using index-computed YoY from the later MoSPI/NSO reconstructed series for Apr-May 2020
+reproduces the RBI's approximately 26% above-band share; using only published YoY gives 24.3%.
+This is consistent with those two months being included in the RBI tally, but does not establish
+the exact source vintage or handling used by the RBI authors; treat this as a replication clue, not proof.

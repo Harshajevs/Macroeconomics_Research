@@ -1,0 +1,8 @@
+series,frequency,n,mean,median,variance,sd,min,max,skewness,excess_kurtosis,acf1,inference_note
+Food and Beverages,STL-adjusted MoM log change (%),155,0.39850798,0.42670799,0.97679179,0.98832777,-3.17835996,4.67528178,0.42735138,4.26967431,0.05248507,Single major CPI group compared with composite non-food basket.
+"Pan, Tobacco and Intoxicants",STL-adjusted MoM log change (%),155,0.46101923,0.40951406,0.25147283,0.50147067,-0.76964057,4.78012053,4.17001303,35.33674986,0.04904987,Individual non-food CPI group; volatility comparison is not a causal comparison.
+Clothing and Footwear,STL-adjusted MoM log change (%),155,0.40376860,0.38742851,0.08622736,0.29364495,-0.62913480,1.38371074,0.04223586,1.89750369,0.33623984,Individual non-food CPI group; volatility comparison is not a causal comparison.
+Housing,STL-adjusted MoM log change (%),155,0.40420156,0.33971013,0.42465673,0.65165691,-1.54068762,7.72592044,9.19120247,105.18029014,-0.02508656,Individual non-food CPI group; volatility comparison is not a causal comparison.
+Fuel and Light,STL-adjusted MoM log change (%),155,0.34766434,0.38213492,0.71196479,0.84378006,-3.61313335,2.81791389,-0.91901448,5.72733554,0.31663240,Individual non-food CPI group; volatility comparison is not a causal comparison.
+Miscellaneous,STL-adjusted MoM log change (%),155,0.41528494,0.40968679,0.05641876,0.23752634,-0.17797905,1.56131083,0.94938671,4.74588342,0.11111408,Individual non-food CPI group; volatility comparison is not a causal comparison.
+Non-food,STL-adjusted MoM log change (%),155,0.40368699,0.40626647,0.05849072,0.24184855,-0.67989892,1.31593044,-0.06189246,4.76227322,0.22190229,Weighted composite of five non-food groups; diversification may reduce aggregate volatility.

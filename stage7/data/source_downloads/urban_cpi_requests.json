@@ -1,0 +1,129 @@
+{
+  "retrieval_date": "2026-11-21",
+  "retrieved_utc": "2026-11-20T19:14:27.088608+00:00",
+  "schema": "cpi_api_v2_schema.yaml",
+  "pages": [
+    {
+      "file": "urban_cpi_api_page_01.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=1",
+      "sha256": "7ad07b7867328c339d27dcb8f5840339f008ec9911ae9599f59845f823c4520b",
+      "metadata": {
+        "page": 1,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_02.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=2",
+      "sha256": "d962165113d8e1a7d9448239a1b3a77e2eba39d5af6e38452f71e88dc2d8889e",
+      "metadata": {
+        "page": 2,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_03.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=3",
+      "sha256": "7cb87cddb4370d8e05a375d442656efdabb515e186a8146ba13de9170b8f759d",
+      "metadata": {
+        "page": 3,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_04.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=4",
+      "sha256": "de59d77da2ef5c3cc9382349c5aac0cda6159a30414cd12cbb0c35bede5b078f",
+      "metadata": {
+        "page": 4,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_05.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=5",
+      "sha256": "d804e76ea8a2803fbb8e87a56b6fd648ed56d9095bc1fb016236eb99fc4f1abf",
+      "metadata": {
+        "page": 5,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_06.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=6",
+      "sha256": "84248ced603ad4578d35fee8c66dee0f5df178e46c0da89af403a079825ebf47",
+      "metadata": {
+        "page": 6,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_07.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=7",
+      "sha256": "8159554ea686f562393a38872fe07db2cd14d4de93d5c50a9e3990dc2496f354",
+      "metadata": {
+        "page": 7,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_08.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=8",
+      "sha256": "490a0671ebe63ff27c532fc60d5dde025d44d00a98e1803679a575d5fbe6366d",
+      "metadata": {
+        "page": 8,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_09.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=9",
+      "sha256": "e3389d255a70c4bb687a51d305ab21df9931345df0a44ebee78a7b1078419f8d",
+      "metadata": {
+        "page": 9,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_10.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=10",
+      "sha256": "bfac9fe104b76e3bb8795236c7b07e78cc88ecca1e18056ba5fdf04d99f5e791",
+      "metadata": {
+        "page": 10,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    },
+    {
+      "file": "urban_cpi_api_page_11.json",
+      "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2012&level=Group&series=Current&year=2013%2C2014%2C2015%2C2016%2C2017%2C2018%2C2019%2C2020%2C2021%2C2022%2C2023%2C2024%2C2025&state_code=99&sector_code=2&group_code=0%2C1%2C2%2C3%2C4%2C5%2C6&subgroup_code=0.99%2C1.99%2C2.99%2C3.99%2C4.99%2C5.99%2C6.99&limit=100&page=11",
+      "sha256": "1d2b1a1f9c1de760cf0a7714800673554acc289de0087a9ca82c9e467a309e5b",
+      "metadata": {
+        "page": 11,
+        "totalRecords": 1092,
+        "totalPages": 11,
+        "recordPerPage": 100
+      }
+    }
+  ],
+  "total_records": 1092
+}

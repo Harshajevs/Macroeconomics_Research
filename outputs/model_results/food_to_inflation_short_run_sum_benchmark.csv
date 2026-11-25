@@ -1,0 +1,3 @@
+outcome,n,short_run_sum_beta0_to_beta3,HAC6_SE,HAC6_95CI_low,HAC6_95CI_high,short_run_sum_bootstrap_t_reps,short_run_sum_bootstrap_t_CI_low,short_run_sum_bootstrap_t_CI_high,interpretation
+food_to_nonfood_primary,147,0.03423789878663369,0.02960112887007388,-0.0243286596582412,0.09280445723150858,4999,-0.026824067894555645,0.09389306706221787,Includes contemporaneous and three delayed food coefficients. RBI ARDL comparator is not identical.
+food_to_core_primary,147,0.018009483874375155,0.027917981274936735,-0.037226925830746486,0.07324589357949679,4999,-0.040836712355167976,0.07511676878892419,Includes contemporaneous and three delayed food coefficients. RBI ARDL comparator is not identical.

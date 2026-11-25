@@ -1,0 +1,11 @@
+release_date,reference_month,base_year,sector,ranking,item,combined_weight_pct,inflation_sep2026_pct,inflation_oct2026_pct,selection
+2026-11-12,2026-10,2024,Combined,1,Onion,0.7006,108.13,116.22,Top five high inflation
+2026-11-12,2026-10,2024,Combined,2,Garlic,0.3738,54.62,60.74,Top five high inflation
+2026-11-12,2026-10,2024,Combined,3,Silver Jewellery,0.3127,87.82,52.39,Top five high inflation
+2026-11-12,2026-10,2024,Combined,4,Ginger,0.2556,62.85,48.32,Top five high inflation
+2026-11-12,2026-10,2024,Combined,5,Lemon,0.1367,36.41,47.30,Top five high inflation
+2026-11-12,2026-10,2024,Combined,1,Potato,0.7549,-11.52,-14.24,Top five low inflation
+2026-11-12,2026-10,2024,Combined,2,Cauliflower,0.2330,-2.88,-10.57,Top five low inflation
+2026-11-12,2026-10,2024,Combined,3,Coconut,0.1931,-3.99,-5.60,Top five low inflation
+2026-11-12,2026-10,2024,Combined,4,Brinjal,0.2912,2.21,-3.34,Top five low inflation
+2026-11-12,2026-10,2024,Combined,5,Cabbage,0.1518,5.58,-1.92,Top five low inflation

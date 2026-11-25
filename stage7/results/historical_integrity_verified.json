@@ -1,0 +1,17 @@
+[
+  {
+    "manifest": "postreview_input_manifest_v3_3.sha256",
+    "verified": 74,
+    "failures": []
+  },
+  {
+    "manifest": "postreview_output_manifest_v3_3.sha256",
+    "verified": 247,
+    "failures": []
+  },
+  {
+    "manifest": "stage6_checkpoint1_manifest.sha256",
+    "verified": 458,
+    "failures": []
+  }
+]

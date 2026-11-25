@@ -1,0 +1,2 @@
+date,variable,source_export_value,selected_value,difference,reason,source_url
+2025-12,pan_tobacco,215.9,215.8,-0.1,"The eSankhyiki workbook export shows 215.9, while the official December 2025 MoSPI/PIB release and the project official spot-check show 215.8. The analytic CSV uses the published release figure; the original export is preserved unchanged.",https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2213736

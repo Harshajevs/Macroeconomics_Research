@@ -1,0 +1,7 @@
+item_code,item,combined_weight_percent,parent_subgroup,parent_group,included_in_operational_core,source_url
+6.1.03.2.1.01.P,petrol for vehicle,2.18697,Transport and Communication,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx
+6.1.03.2.1.02.0,diesel for vehicle,0.14800,Transport and Communication,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx
+6.1.03.2.1.03.X,lubricants and other fuels for vehicle,0.05002,Transport and Communication,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx
+6.1.06.2.1.01.0,gold,1.08035,Personal Care and Effects,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx
+6.1.06.2.1.02.0,silver,0.11175,Personal Care and Effects,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx
+6.1.06.2.1.04.0,other ornaments,0.01157,Personal Care and Effects,Miscellaneous,yes,https://www.cpi.mospi.gov.in/Weight_AI_Item_Combined_2012.aspx

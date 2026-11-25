@@ -1,0 +1,48 @@
+{
+  "rows": 156,
+  "first_month": "2013-01",
+  "last_month": "2025-12",
+  "raw_source_sha256": "eb63a945e6b25bf0d39580f8c9d252e3eb3d04cda1383939fec578cf44954f43",
+  "month_statuses": [
+    "final"
+  ],
+  "index_min": 100.3,
+  "index_max": 219.9,
+  "group_composite_max_abs_residual": 0.08033999999999253,
+  "residual_summary_by_subperiod": [
+    {
+      "period": "pre_pandemic_2013_2019",
+      "n": 84,
+      "mean_residual": -0.0011753571428537988,
+      "max_abs_residual": 0.08033999999999253
+    },
+    {
+      "period": "pandemic_2020_2021",
+      "n": 24,
+      "mean_residual": 0.001879583333339004,
+      "max_abs_residual": 0.07952000000000226
+    },
+    {
+      "period": "post_2021_2022_2025",
+      "n": 48,
+      "mean_residual": 0.0030468750000049263,
+      "max_abs_residual": 0.07554999999999268
+    }
+  ],
+  "jump_warning_count": 0,
+  "jump_warnings": [],
+  "anchor_comparisons": 56,
+  "imputed_months": [
+    "2020-04",
+    "2020-05"
+  ],
+  "status_note": "API F/F*/F+ preserved; historical final vintage, with explicit technical-note macro-imputation flags. F+ is not reinterpreted as macro-imputation.",
+  "early_2013_housing_actual_values": [
+    100.3,
+    100.4,
+    100.4,
+    100.5,
+    100.5
+  ],
+  "early_2013_note": "Observed Current-query source contains 100.3,100.4,100.4,100.5,100.5; inherited statement that every value equals100 is not used. No back-series splice. Shorter STL history sensitivity is required."
+}

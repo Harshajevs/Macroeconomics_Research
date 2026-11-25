@@ -1,0 +1,3 @@
+direction,lagged_predictor,start,end,n,own_lag_order_p,predictor_lag_horizon_q,HAC6_joint_chi2_p,HAC6_joint_F_p,HAC12_joint_chi2_p,HC3_joint_chi2_p,conditional_delayed_sum,delayed_sum_CI_low,delayed_sum_CI_high,interpretation
+food_to_nonfood,Food and Beverages,2014-01,2025-12,144,1,3,0.3440343646518207,0.3482195955519878,0.2757802261173935,0.5843822306493638,-0.0044110654195885,-0.0515177058628019,0.0426955750236248,Granger-style conditional predictive association; not causal identification.
+nonfood_to_food,Non-food,2014-01,2025-12,144,2,3,0.0148915100854188,0.0176991817309702,0.0236684221405373,0.1234261798665759,-1.0484505305472078,-1.8221694804995765,-0.2747315805948392,Granger-style conditional predictive association; not causal identification.

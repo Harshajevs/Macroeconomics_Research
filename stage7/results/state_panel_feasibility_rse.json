@@ -1,0 +1,10 @@
+{
+  "candidate_states": 21,
+  "cells": 105,
+  "median": 12.4,
+  "max": 27.3,
+  "min": 2.4,
+  "above20": 11,
+  "at_or_above25": 3,
+  "scope": "Five-quarter feasibility slice only; not full27quarter RSE coverage"
+}

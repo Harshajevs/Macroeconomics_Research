@@ -1,0 +1,5 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+series,n,raw_mean_pct,raw_sd_pp,seasonal_adjusted_mean_pct,seasonal_adjusted_sd_pp,month_effects_joint_F,month_effects_joint_pvalue_HAC6,month_dummy_R2,adjustment
+Food and Beverages,144,0.37131521,1.24174349,0.37131521,0.88356117,18.00308992,0.00000000,0.49369821,OLS calendar-month fixed effects on monthly log inflation; residualized series recentered to the original mean. Not an official X-13 adjustment.
+Non-food,144,0.38894693,0.23334908,0.38894693,0.20640509,6.13037899,0.00000005,0.21760039,OLS calendar-month fixed effects on monthly log inflation; residualized series recentered to the original mean. Not an official X-13 adjustment.
+Core,144,0.39645820,0.21642423,0.39645820,0.17659550,11.48881792,0.00000000,0.33419428,OLS calendar-month fixed effects on monthly log inflation; residualized series recentered to the original mean. Not an official X-13 adjustment.

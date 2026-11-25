@@ -1,0 +1,10 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+series,ZA_regression,ZA_statistic,ZA_pvalue,critical_1pct,critical_5pct,critical_10pct,selected_lags,estimated_break_month,interpretation
+Food and Beverages,c,-3.34439209,0.77172695,-5.27644000,-4.81067000,-4.56618000,12,2017-11,Do not reject unit root with one break
+Food and Beverages,ct,-3.59219124,0.76405400,-5.57556000,-5.07332000,-4.82668000,12,2017-11,Do not reject unit root with one break
+Non-food,c,-2.82443940,0.95109482,-5.27644000,-4.81067000,-4.56618000,9,2020-11,Do not reject unit root with one break
+Non-food,ct,-4.50723514,0.20925928,-5.57556000,-5.07332000,-4.82668000,9,2022-02,Do not reject unit root with one break
+Core,c,-3.62297052,0.59889186,-5.27644000,-4.81067000,-4.56618000,12,2021-04,Do not reject unit root with one break
+Core,ct,-4.14028959,0.41148833,-5.57556000,-5.07332000,-4.82668000,12,2021-04,Do not reject unit root with one break
+Non-food (headline-derived),c,-2.77117858,0.95902762,-5.27644000,-4.81067000,-4.56618000,3,2023-08,Do not reject unit root with one break
+Non-food (headline-derived),ct,-4.15276182,0.40339789,-5.57556000,-5.07332000,-4.82668000,3,2022-01,Do not reject unit root with one break

@@ -1,0 +1,2 @@
+label,partial_supF_food_lags,partial_supF_bootstrap_reps_requested,partial_supF_bootstrap_reps_successful,partial_supF_bootstrap_block_length,partial_supF_bootstrap_tail_probability,partial_supF_bootstrap_mcse,interpretation
+food_to_core_primary,0.8406294906900688,4999,4999,6,0.8276,0.005341876823739,No break date is identified or reported; test is restricted to delayed food-lag coefficients.

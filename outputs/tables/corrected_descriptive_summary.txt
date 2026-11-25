@@ -1,0 +1,11 @@
+CORRECTED DESCRIPTIVE ANALYSIS — DESCRIPTIVE OUTPUTS ONLY
+MoM sample: 2013-02 to 2025-12; n=155.
+YoY descriptive sample: 2014-01 to 2025-12; overlapping windows; moments are descriptive only.
+STL-adjusted MoM SD: Food=0.9883 pp; Non-food=0.2418 pp.
+H1 SD difference food-minus-nonfood=0.7465 pp; 95% stationary-bootstrap CI [0.5391, 0.9483], block length=2.
+H1 log SD ratio=1.4077 with 95% CI [1.1377, 1.6763].
+Exploratory H2 MoM skewness difference=0.4892, CI [-1.0780, 2.0179]; excess-kurtosis difference=-0.4926, CI [-4.4729, 3.3257]. H2 remains retired as confirmatory.
+Weighted subgroup food index max absolute gap from official Food & Beverages: 0.0934 index points.
+The food-ex-vegetables measure is a derived weighted subgroup proxy, not an official MoSPI series; compare cautiously against the official group index.
+YoY Jarque-Bera p-values, iid YoY correlation inference and circular YoY bootstrap outputs are deprecated and must not be cited as inferential evidence.
+The covariance decomposition assigns aggregate variance using Cov(component contribution, total contribution)/Var(total contribution); this includes cross-covariances and is not causal.

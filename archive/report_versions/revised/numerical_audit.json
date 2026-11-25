@@ -1,0 +1,77 @@
+{
+  "unemployment_sum": 239.70000000000002,
+  "unemployment_mean": 8.877777777777778,
+  "unemployment_median": 8.3,
+  "Sxx": 231.56666666666672,
+  "Sxy_headline": 21.844330288689505,
+  "correlations": {
+    "yoy_log_full": {
+      "unemployment": {
+        "unemployment": 1.0,
+        "headline": 0.2759670257035778,
+        "core_food_fuel_excluded": 0.3700350929760006
+      },
+      "headline": {
+        "unemployment": 0.2759670257035778,
+        "headline": 1.0,
+        "core_food_fuel_excluded": 0.3236649445867801
+      },
+      "core_food_fuel_excluded": {
+        "unemployment": 0.3700350929760006,
+        "headline": 0.3236649445867801,
+        "core_food_fuel_excluded": 1.0
+      }
+    },
+    "yoy_log_exclusion": {
+      "unemployment": {
+        "unemployment": 1.0,
+        "headline": -0.08000261690401397,
+        "core_food_fuel_excluded": 0.53715070118185
+      },
+      "headline": {
+        "unemployment": -0.08000261690401397,
+        "headline": 1.0,
+        "core_food_fuel_excluded": 0.2796042740700106
+      },
+      "core_food_fuel_excluded": {
+        "unemployment": 0.53715070118185,
+        "headline": 0.2796042740700106,
+        "core_food_fuel_excluded": 1.0
+      }
+    },
+    "qoq_saar_full": {
+      "unemployment": {
+        "unemployment": 1.0,
+        "headline": 0.08271824453386038,
+        "core_food_fuel_excluded": 0.5367676256562403
+      },
+      "headline": {
+        "unemployment": 0.08271824453386038,
+        "headline": 1.0,
+        "core_food_fuel_excluded": 0.254114191755296
+      },
+      "core_food_fuel_excluded": {
+        "unemployment": 0.5367676256562403,
+        "headline": 0.254114191755296,
+        "core_food_fuel_excluded": 1.0
+      }
+    },
+    "qoq_saar_exclusion": {
+      "unemployment": {
+        "unemployment": 1.0,
+        "headline": -0.06657394881074832,
+        "core_food_fuel_excluded": 0.3645862574450692
+      },
+      "headline": {
+        "unemployment": -0.06657394881074832,
+        "headline": 1.0,
+        "core_food_fuel_excluded": 0.2225239735720876
+      },
+      "core_food_fuel_excluded": {
+        "unemployment": 0.3645862574450692,
+        "headline": 0.2225239735720876,
+        "core_food_fuel_excluded": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Recursive monthly-model calibration: rejection rates under a true zero delayed effect (\%)}
+\begin{tabularx}{\linewidth}{lXrrr}
+\toprule
+Outcome &Error process&HAC(6)&HC3&Block-wild\\
+\midrule
+Non-food & Independent Gaussian & 13.3 & 5.1 & 4.0\\
+Non-food & AR/GARCH Gaussian & 14.7 & 5.4 & 5.1\\
+Non-food & AR/GARCH, heavy tails & 13.7 & 5.9 & 6.1\\
+Core & Independent Gaussian & 13.4 & 5.1 & 4.3\\
+Core & AR/GARCH Gaussian & 15.9 & 5.9 & 7.1\\
+Core & AR/GARCH, heavy tails & 14.2 & 5.4 & 5.9\\
+\bottomrule
+\end{tabularx}
+\tabnote{Nominal rejection rate is 5\%. Each cell uses 1,000 datasets; block-wild tests use 999 inner draws. Approximate Monte Carlo standard errors near 5\% are 0.7 percentage points. Core block-wild rejection reaches 7.1\% in one design; a bootstrap is not presumed exact.}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Illustrative power for the non-food equation under AR/GARCH errors}
+\begin{tabular}{rrrr}
+\toprule
+True delayed sum&HAC(6) rejection (\%)&HC3 rejection (\%)&Block-wild rejection (\%)\\
+\midrule
+0.048 & 17.6 & 7.6 & 5.4\\
+0.100 & 56.9 & 39.2 & 31.6\\
+0.200 & 98.2 & 97.7 & 93.8\\
+\bottomrule
+\end{tabular}
+\tabnote{The effect is distributed equally over three delayed coefficients. These results concern a specified synthetic process, not the true unknown data-generating process. On this grid, 80\% bootstrap power is reached between sums 0.100 and 0.200; an exact minimum detectable effect is not estimated. HAC rejection also reflects its oversized null behaviour.}
+\end{table}

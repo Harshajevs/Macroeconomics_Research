@@ -1,0 +1,19 @@
+VALIDATION REPORT — AUTHENTIC MoSPI CPI SERIES
+Rows in processed dataset: 156 (2013-01 to 2025-12)
+YoY analysis window: 2014-01 to 2025-12; MoM analysis window: 2013-02 to 2025-12
+Missing derived YoY values inside YoY window: 0
+Missing derived MoM values inside MoM window: 0
+Expected warm-up: 12 raw months for YoY; 1 raw month for MoM
+Headline vs weighted group sum: max abs gap 0.050, mean 0.025 index points
+  OK: all months within tolerance 0.5
+Non-food group-built vs headline-built: max level gap 0.092; max MoM inflation gap 0.164 pp
+Approx. group contribution identity max gap: 0.097 pp
+CFPI included: no
+COVID pulse months flagged: 7
+Collection-gap months flagged: 2
+Months containing MoSPI-imputed CPI components: ['2020-04', '2020-05']
+OVERALL: PASS
+
+Saved dataset to /var/folders/6g/h3zj1qtj7dv_r54_v0xd3nsw0000gn/T/tmphhq6brak/out.csv
+Saved report to /var/folders/6g/h3zj1qtj7dv_r54_v0xd3nsw0000gn/T/tmphhq6brak/rep.txt
+ALL TESTS PASSED (synthetic data only)

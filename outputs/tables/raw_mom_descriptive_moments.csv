@@ -1,0 +1,5 @@
+series,frequency,n,mean,median,variance,sd,min,max,skewness,excess_kurtosis,acf1,inference_note
+Food and Beverages,Raw MoM log change (%),155,0.41877694,0.45377276,1.63764182,1.27970380,-3.48583011,5.52450608,0.16039594,1.33873954,0.41215860,Descriptive only; seasonal calendar pattern remains.
+Non-food,Raw MoM log change (%),155,0.40556960,0.38193773,0.06928235,0.26321541,-0.36995020,1.80129581,1.52217491,6.89524408,0.21395855,Descriptive only; seasonal calendar pattern remains.
+Headline,Raw MoM log change (%),155,0.41169257,0.45428812,0.43939994,0.66287249,-1.55982365,2.88612463,0.29541300,1.18781617,0.37129211,Descriptive only; seasonal calendar pattern remains.
+Core,Raw MoM log change (%),155,0.41346080,0.37576955,0.06564515,0.25621310,-0.02347788,1.94407064,2.00882423,8.45630225,0.13256072,Descriptive only; seasonal calendar pattern remains.

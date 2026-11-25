@@ -1,0 +1,179 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HS455 research checkpoint</title><style>body{font:16px/1.55 system-ui,sans-serif;max-width:1120px;margin:40px auto;padding:0 24px;color:#172e3b;background:#fbfcfd}h1{font-size:32px;line-height:1.2}h2{margin-top:36px;font-size:22px}p{max-width:1000px}.note{padding:14px 18px;border-left:4px solid #b66e3c;background:#fff5ea}.good{border-left:4px solid #237a9b;background:#edf6fa;padding:14px 18px}table{border-collapse:collapse;width:100%;font-size:14px;margin:18px 0}th,td{text-align:left;border-bottom:1px solid #ccd8df;padding:9px}th{background:#eaf1f4}img{width:100%;height:auto;margin-top:12px}a{color:#0d678a}.small{font-size:13px;color:#425e6e}code{font-size:13px}summary{cursor:pointer;font-weight:600}ul{padding-left:24px}@media print{body{margin:0;max-width:none}h2{break-after:avoid}img,table{break-inside:avoid}}</style><body>
+<p class="small">HS455 · Research checkpoint · 21 November 2026 · Base 2012 CPI / old-design PLFS</p>
+<h1>Food inflation, unemployment and the limits of the evidence</h1>
+<div class="good"><b>The research stage is ready for student review before report preparation.</b> The completed simple Urban analysis does not support a stronger negative inflation–unemployment relationship after food is excluded. Food accounts for most raw official headline-inflation variance. The spillover extension remains predictive and imprecise.</div>
+<p>This is an evidence record and file guide. It is not the 3,000–4,000-word coursework report. Original checkpoint files remain preserved; new work lives in <code>stage7/</code>.</p>
+<h2>1. Does the negative relationship strengthen?</h2>
+<p>Matched Urban CWS unemployment, persons aged 15+, and Urban CPI: 2018Q2–2024Q4. Simple OLS with intercept. Operational core excludes Food &amp; Beverages and Fuel &amp; Light. Slopes are inflation percentage points per one percentage point of unemployment; q/q rates are annualised. The difference comes from a paired core-minus-headline regression on identical rows.</p>
+<div style="overflow-x:auto"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Inflation</th>
+      <th>Sample</th>
+      <th>N</th>
+      <th>Headline slope</th>
+      <th>Core slope</th>
+      <th>Core − headline</th>
+      <th>HC3 low</th>
+      <th>HC3 high</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>q/q SAAR</td>
+      <td>Exclude 3 pandemic quarters</td>
+      <td>24</td>
+      <td>-0.1134</td>
+      <td>0.3208</td>
+      <td>0.4342</td>
+      <td>-0.3619</td>
+      <td>1.2303</td>
+    </tr>
+    <tr>
+      <td>q/q SAAR</td>
+      <td>Full sample</td>
+      <td>27</td>
+      <td>0.0593</td>
+      <td>0.2217</td>
+      <td>0.1624</td>
+      <td>-0.0479</td>
+      <td>0.3728</td>
+    </tr>
+    <tr>
+      <td>YoY log</td>
+      <td>Exclude 3 pandemic quarters</td>
+      <td>24</td>
+      <td>-0.0604</td>
+      <td>0.4202</td>
+      <td>0.4806</td>
+      <td>0.0736</td>
+      <td>0.8877</td>
+    </tr>
+    <tr>
+      <td>YoY log</td>
+      <td>Full sample</td>
+      <td>27</td>
+      <td>0.0943</td>
+      <td>0.1228</td>
+      <td>0.0285</td>
+      <td>-0.2797</td>
+      <td>0.3366</td>
+    </tr>
+  </tbody>
+</table></div>
+<p class="note">Both primary core slopes are positive. This fails the proposed negative-sign/strengthening pattern. Nominal HC3 intervals are sensitivity summaries: the 27-quarter design has extreme pandemic leverage, and the replicated null simulations show poor calibration for persistent/overlapping errors. This is not evidence that a structural Phillips curve is absent.</p>
+<img src="figures/phillips_paths_and_scatter.png" alt="Urban inflation time paths and paired scatter plots">
+<details><summary>Robustness and scope</summary><p>Fixed exclusion: 2020Q2, 2020Q3, 2021Q2. Additional checks include food-only exclusion, no-Housing core, full 2020–21 removal, calendar trend, leave-one-quarter-out, STL windows 7/13/25, shorter history and history ending in 2024. Positive core signs survive the composition/history/leave-one checks. National Urban association is distinct from a causal slope or unemployment-gap model.</p><p><a href="results/phillips_all_specifications.csv">All primary/sample/composition/trend results</a> · <a href="results/phillips_seasonal_history_sensitivity.csv">Seasonal history checks</a> · <a href="results/phillips_leave_one_quarter_out.csv">Influence checks</a></p></details>
+<h2>2. How much official headline variance is allocated to food?</h2>
+<p>Full index history January 2013–December 2025. Monthly changes have 155 observations; year-on-year changes have 144. These are exact simple-percentage-change covariance allocations, including an explicit aggregation residual. They include covariance with other groups; they are not causal shock shares or basket weights.</p>
+<div style="overflow-x:auto"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Sector</th>
+      <th>Measure</th>
+      <th>N</th>
+      <th>Food allocation (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Combined</td>
+      <td>Monthly change</td>
+      <td>155</td>
+      <td>88.7090</td>
+    </tr>
+    <tr>
+      <td>Combined</td>
+      <td>Year-on-year change</td>
+      <td>144</td>
+      <td>80.9568</td>
+    </tr>
+    <tr>
+      <td>Urban</td>
+      <td>Monthly change</td>
+      <td>155</td>
+      <td>79.8459</td>
+    </tr>
+    <tr>
+      <td>Urban</td>
+      <td>Year-on-year change</td>
+      <td>144</td>
+      <td>64.6857</td>
+    </tr>
+  </tbody>
+</table></div>
+<img src="figures/official_food_variance_shares.png" alt="Food share of raw official headline variance by sector and frequency">
+<p class="note">The inherited 90.59% is reproduced for a <b>reconstructed seasonally adjusted aggregate</b>. It is not a universal official-headline share. Independently adjusting General and all groups produces a large seasonal-reconciliation residual (24.24% Combined, 25.09% Urban); those direct-SA allocations are retained as a caveated appendix sensitivity.</p>
+<p>For Combined raw monthly inflation, descriptive 12-month moving-block bounds are 85.94–93.14%; for overlapping YoY, 70.48–98.98%. These resampling intervals are not guaranteed confidence coverage. The point shares remain sample dependent.</p>
+<p><a href="results/official_headline_variance_allocations.csv">All exact allocations and sample checks</a> · <a href="results/food_variance_block_uncertainty.csv">Block-length uncertainty</a> · <a href="results/legacy_reconstructed_food_shares.csv">Reproduced legacy bridge</a></p>
+<h2>3. Food/non-food spillovers: secondary extension</h2>
+<p>Primary continuous monthly models, October 2013–December 2025, n=147, own lag 1 and three delayed food lags. HC3 delayed-sum intervals:</p>
+<div style="overflow-x:auto"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Outcome</th>
+      <th>Delayed sum</th>
+      <th>HC3 low</th>
+      <th>HC3 high</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Food → non-food</td>
+      <td>-0.0035</td>
+      <td>-0.0592</td>
+      <td>0.0523</td>
+    </tr>
+    <tr>
+      <td>Food → core</td>
+      <td>-0.0188</td>
+      <td>-0.0690</td>
+      <td>0.0313</td>
+    </tr>
+  </tbody>
+</table></div>
+<div style="overflow-x:auto"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Outcome</th>
+      <th>Joint draws</th>
+      <th>Joint tail probability</th>
+      <th>Monte Carlo SE</th>
+      <th>Same-month tail probability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Food → non-food</td>
+      <td>19999</td>
+      <td>0.4361</td>
+      <td>0.0035</td>
+      <td>0.0628</td>
+    </tr>
+    <tr>
+      <td>Food → core</td>
+      <td>19999</td>
+      <td>0.4661</td>
+      <td>0.0035</td>
+      <td>0.1947</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Joint tests use 19,999 draws; same-month tests use 49,999. Seeds differ by model. The data do not detect a positive delayed association, but do not establish zero spillover. In the non-food recursive AR/GARCH power exercise, a delayed sum of 0.048 is detected in only 5.4% of 1,000 datasets. The <a href="https://rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22323">RBI January 2024 ARDL study</a> reports a 0.048 short-run sum for a different estimand and sample; our delayed-only estimate is not a replication of it.</p>
+<p>The independent recursive simulations use 1,000 datasets per scenario and 999 inner draws. Core bootstrap null rejection reaches 7.1% in one design, so the test is not certified as exact. Reverse predictability and the relative-price addition remain exploratory, with multiplicity and omitted common drivers disclosed.</p>
+<p><a href="results/spillover_recursive_calibration.csv">Calibration, power, coverage and Monte Carlo uncertainty</a> · <a href="results/all_legacy_variants_reproduced_HC3.csv">All 20 historical variants reproduced</a> · <a href="results/reverse_relative_price_sensitivity.csv">Post-results reverse sensitivity</a></p>
+<h2>4. Source and software audit</h2>
+<ul><li>Archived 1,092 CPI records, 11 API pages, complete 156-month history; 56 independent anchor cells pass. Maximum weighted-group versus General gap: 0.08034 index points.</li>
+<li>Two PLFS API discrepancies are resolved using bulletin Statement 5, PDF page 9: 2019Q2=8.8% and 2019Q3=8.3%. API values 21.6% and 8.1% remain archived. Other 25 values agree.</li>
+<li>Component-specific pandemic flags are checked against the <a href="https://www.mospi.gov.in/sites/default/files/press_release/CPI%20Technical%20Note%20on%20Imputation.pdf">MoSPI technical note</a>. No interpolation or base/design splice was used.</li>
+<li>Original 74-input, 247-output and 458-file checkpoint manifests are verified. New tests protect the accounting, paired slopes, calendar gaps and inference engine; all seven targeted previously missed mutants are caught.</li>
+<li>The state panel is future work. Its 621 API records are labelled unvalidated; a 105-cell RSE feasibility slice is not full panel validation. A state panel estimates a different relationship and needs additional data/inference work.</li></ul>
+<h2>5. Files to use before drafting</h2>
+<ul><li><a href="documentation/claim_ledger.csv">Claim ledger: what may be said and what may not</a></li>
+<li><a href="documentation/methodology_and_decisions.txt">Methods, source resolutions and limitations</a></li>
+<li><a href="documentation/source_register.csv">Primary source register</a></li>
+<li><a href="documentation/audit_disposition.txt">Disposition of the supplied audit</a></li>
+<li><a href="documentation/report_handoff_and_AI_usage.txt">Report requirements, missing assignment PDF and AI-use disclosure</a></li></ul>
+<p>The <a href="https://rbi.org.in/Scripts/PublicationsView.aspx?id=17752">RBI 2017 state analysis</a> uses output gaps rather than the matched unemployment measure used here. The <a href="https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=23980">RBI 2026 volatility study</a> concerns vegetable-driven volatility, a different estimand from delayed mean inflation predictability. Neither is contradicted solely by these descriptive results.</p>
+<div class="note"><b>Stop before report preparation.</b> The supplied assignment PDF is missing from the stated path; quoted requirements were used. The CQF/LaTeX cover is a style reference only. Student interpretation, authorship and the course’s AI-use rule require honest review. No AI-content percentage or student approval is asserted.</div>
+<p class="small">Offline reproduction: <code>python stage7/run_research.py</code> from the package root. Add <code>--full</code> to rerun the long bootstrap and simulation work. See <code>stage7/requirements.txt</code>. This checkpoint was AI-assisted and self-audited; no independent human certification is claimed.</p></body></html>

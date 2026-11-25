@@ -1,0 +1,622 @@
+year_type,year,frequency,indicator,state,gender,sector,AgeGroup,quarter,value,unit
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,9.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,9.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,9.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,7.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,8.1,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,7.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,6.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,6.0,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,7.3,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,12.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,13.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,11.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,9.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,7.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,11.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,9.3,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,11.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,9.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,4.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,4.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,4.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,9.3,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,10.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,9.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,9.3,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,11.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,10.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,13.1,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,13.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,13.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,11.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,10.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,13.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,6.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,5.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,6.0,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,14.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,11.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,14.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,10.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,11.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,13.1,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,9.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,9.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,8.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,13.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,14.2,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,9.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,9.3,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,7.0,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,8.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,10.1,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,10.7,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,11.0,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,8.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,8.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,8.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,12.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,12.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,11.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,11.8,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,13.6,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,10.4,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,12.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,14.0,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,14.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,8.5,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,7.9,%
+,2018,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,7.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,8.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,7.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,9.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,21.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,10.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,9.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,8.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,10.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,10.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,9.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,9.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,10.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,8.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,8.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,10.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,8.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,9.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,9.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,8.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,11.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,11.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,10.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,13.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,3.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,4.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,3.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,4.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,11.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,7.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,6.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,10.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,10.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,10.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,7.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,11.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,10.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,11.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,15.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,13.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,8.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,8.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,7.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,9.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,4.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,3.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,4.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,4.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,12.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,13.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,12.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,11.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,12.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,12.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,11.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,12.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,7.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,5.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,5.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,8.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,14.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,11.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,10.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,15.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,8.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,9.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,9.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,7.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,10.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,9.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,10.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,10.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,8.5,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,6.8,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,7.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,9.0,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,12.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,10.9,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,11.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,11.4,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,11.6,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,9.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,9.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,14.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,11.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,11.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,8.7,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,12.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,6.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,6.1,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,5.3,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,7.2,%
+,2019,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,8.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,13.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,10.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,9.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,20.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,13.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,9.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,12.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,26.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,9.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,8.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,9.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,15.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,11.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,8.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,10.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,12.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,15.4,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,14.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,9.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,16.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,12.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,8.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,12.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,17.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,4.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,4.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,3.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,10.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,9.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,11.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,7.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,13.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,8.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,7.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,12.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,14.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,17.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,16.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,17.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,18.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,19.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,7.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,11.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,32.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,7.4,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,16.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,4.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,13.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,18.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,11.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,16.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,27.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,14.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,13.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,12.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,28.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,22.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,15.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,6.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,35.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,16.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,9.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,11.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,22.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,10.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,12.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,9.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,13.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,15.0,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,8.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,12.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,24.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,10.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,10.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,8.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,17.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,15.4,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,11.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,12.1,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,25.5,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,10.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,11.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,9.2,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,26.8,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,13.3,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,6.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,9.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,16.6,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,10.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,17.7,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,6.9,%
+,2020,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,16.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,9.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,8.7,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,9.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,12.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,7.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,7.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,7.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,9.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,10.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,9.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,9.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,9.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,11.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,11.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,8.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,9.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,10.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,11.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,11.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,19.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,9.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,9.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,8.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,8.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,4.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,4.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,3.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,5.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,14.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,11.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,10.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,11.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,12.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,11.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,7.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,9.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,13.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,9.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,11.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,17.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,S.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,S.S,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,6.7,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,8.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,18.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,15.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,14.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,24.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,9.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,9.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,9.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,17.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,9.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,7.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,12.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,13.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,14.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,14.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,13.7,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,14.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,8.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,7.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,7.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,8.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,13.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,12.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,12.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,16.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,10.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,10.2,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,9.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,15.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,9.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,7.7,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,10.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,12.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,17.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,15.5,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,14.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,17.0,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,9.9,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,9.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,10.7,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,12.3,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,7.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,6.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,4.8,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,10.1,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,16.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,14.4,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,17.6,%
+,2021,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,17.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,7.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,7.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,8.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,7.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,8.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,8.7,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,8.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,8.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,6.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,6.7,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,9.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,8.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,9.7,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,10.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,10.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,I 1.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,11.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,10.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,11.7,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,I 1.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,4.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,3.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,7.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,6.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,2.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,3.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,4.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,3.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,10.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,11.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,13.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,9.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,11.0,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,10.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,10.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,11.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,6.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,7.0,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,8.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,7.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,4.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,4.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,4.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,4.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,12.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,8.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,13.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,12.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,8.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,7.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,9.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,8.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,6.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,6.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,7.0,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,6.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,10.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,9.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,12.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,11.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,8.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,8.0,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,7.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,8.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,12.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,13.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,12.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,12.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,7.7,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,6.8,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,8.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,8.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,8.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,9.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,6.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,8.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,10.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,9.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,11.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,11.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,7.1,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,6.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,8.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,7.6,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,4.2,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,4.3,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,5.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,4.9,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,13.0,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,13.5,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,15.4,%
+,2022,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,13.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,6.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,6.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,6.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,6.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,7.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,8.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,8.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,8.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,7.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,7.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,8.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,9.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,6.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,6.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,8.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,6.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,10.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,9.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,12.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,11.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,3.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,3.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,3.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,2.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,3.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,3.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,3.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,2.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,5.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,3.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,8.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,6.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,14.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,12.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,14.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,13.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,8.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,7.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,8.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,9.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,4.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,3.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,5.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,4.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,9.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,10.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,9.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,10.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,5.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,6.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,8.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,7.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,6.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,6.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,6.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,6.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,5.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,7.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,7.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,6.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,8.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,6.4,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,8.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,8.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,12.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,9.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,11.9,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,11.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,6.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,6.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,6.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,6.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,7.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,8.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,8.4,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,8.8,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,6.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,8.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,6.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,7.4,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,7.0,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,7.5,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,6.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,6.6,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,5.1,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,5.3,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,4.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,4.4,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,10.7,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,10.2,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,12.4,%
+,2023,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,10.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jul-Sep,6.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Oct-Dec,6.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Jan-Mar,6.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",All India,person,urban,15 years and above,Apr-Jun,6.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jul-Sep,7.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Oct-Dec,7.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Jan-Mar,6.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Andhra Pradesh,person,urban,15 years and above,Apr-Jun,8.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jul-Sep,7.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Oct-Dec,8.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Jan-Mar,6.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Assam,person,urban,15 years and above,Apr-Jun,7.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jul-Sep,7.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Oct-Dec,8.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Jan-Mar,6.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Bihar,person,urban,15 years and above,Apr-Jun,6.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jul-Sep,10.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Oct-Dec,8.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Jan-Mar,9.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Chhattisgarh,person,urban,15 years and above,Apr-Jun,9.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jul-Sep,2.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Oct-Dec,3.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Jan-Mar,1.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Delhi,person,urban,15 years and above,Apr-Jun,2.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jul-Sep,4.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Oct-Dec,3.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Jan-Mar,4.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Gujarat,person,urban,15 years and above,Apr-Jun,3.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jul-Sep,5.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Oct-Dec,4.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Jan-Mar,4.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Haryana,person,urban,15 years and above,Apr-Jun,4.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jul-Sep,8.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Oct-Dec,10.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Jan-Mar,9.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Himachal Pradesh,person,urban,15 years and above,Apr-Jun,9.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jul-Sep,6.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Oct-Dec,6.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Jan-Mar,7.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jammu & Kashmir,person,urban,15 years and above,Apr-Jun,7.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jul-Sep,4.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Oct-Dec,4.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Jan-Mar,4.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Jharkhand,person,urban,15 years and above,Apr-Jun,4.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jul-Sep,10.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Oct-Dec,8.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Jan-Mar,10.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Karnataka,person,urban,15 years and above,Apr-Jun,10.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jul-Sep,6.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Oct-Dec,5.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Jan-Mar,5.4,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Kerala,person,urban,15 years and above,Apr-Jun,4.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jul-Sep,6.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Oct-Dec,6.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Jan-Mar,7.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Madhya Pradesh,person,urban,15 years and above,Apr-Jun,7.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jul-Sep,10.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Oct-Dec,8.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Jan-Mar,7.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Maharashtra,person,urban,15 years and above,Apr-Jun,9.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jul-Sep,4.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Oct-Dec,5.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Jan-Mar,7.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Odisha,person,urban,15 years and above,Apr-Jun,6.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jul-Sep,8.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Oct-Dec,9.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Jan-Mar,9.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Punjab,person,urban,15 years and above,Apr-Jun,10.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jul-Sep,5.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Oct-Dec,5.9,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Jan-Mar,6.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Rajasthan,person,urban,15 years and above,Apr-Jun,5.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jul-Sep,6.6,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Oct-Dec,6.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Jan-Mar,8.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Tamil Nadu,person,urban,15 years and above,Apr-Jun,7.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jul-Sep,7.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Oct-Dec,7.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Jan-Mar,8.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Telangana,person,urban,15 years and above,Apr-Jun,7.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jul-Sep,7.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Oct-Dec,7.2,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Jan-Mar,8.3,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttarakhand,person,urban,15 years and above,Apr-Jun,7.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jul-Sep,5.5,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Oct-Dec,5.7,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Jan-Mar,5.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",Uttar Pradesh,person,urban,15 years and above,Apr-Jun,6.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jul-Sep,11.8,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Oct-Dec,13.1,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Jan-Mar,11.0,%
+,2024,Quarterly,"UR (Unemployment Rate, in per cent)",West Bengal,person,urban,15 years and above,Apr-Jun,11.5,%

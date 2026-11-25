@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering\small
+\caption{OLS estimates: the same unemployment observations in each comparison}
+\label{tab:regression}
+\begin{tabular}{llrrrrrr}
+\toprule
+Inflation & Sample & $n$ & $\hat\beta_H$ & $\hat\beta_C$ & $\hat\delta$ & $R_H^2$ & $R_C^2$\\
+\midrule
+YoY & Full & 27 & 0.094 & 0.123 & 0.028 & 0.076 & 0.137\\
+YoY & Exclusion & 24 & -0.060 & 0.420 & 0.481 & 0.006 & 0.289\\
+q/q SAAR & Full & 27 & 0.059 & 0.222 & 0.162 & 0.007 & 0.288\\
+q/q SAAR & Exclusion & 24 & -0.113 & 0.321 & 0.434 & 0.004 & 0.133\\
+\bottomrule
+\end{tabular}
+\tabnote{$\delta=\beta_C-\beta_H$. Slopes give inflation percentage points associated with one percentage point of unemployment. Nominal HC3 ranges for $\delta$ appear in Figure~\ref{fig:delta}; no significance stars are used.}
+\end{table}

@@ -1,0 +1,332 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.75in,top=0.65in,bottom=0.65in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,graphicx,booktabs,array,tabularx,amsmath,amssymb}
+\usepackage{caption,float,placeins,xcolor,setspace,enumitem,fancyhdr,needspace}
+\usepackage{hyperref,titlesec}
+\definecolor{ink}{HTML}{203743}
+\definecolor{accent}{HTML}{12647A}
+\definecolor{rust}{HTML}{BB603A}
+\hypersetup{colorlinks=true,linkcolor=ink,citecolor=accent,urlcolor=accent,
+ pdftitle={Food Inflation and Unemployment in India},pdfauthor={K Harshavardhan and Pasula Kohith}}
+\urlstyle{same}
+\graphicspath{{assets/}}
+\setstretch{1.16}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{5pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\arraystretch}{1.16}
+\captionsetup{font=small,labelfont=bf,skip=5pt}
+\titleformat{\section}{\Large\bfseries\color{ink}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries\color{ink}}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{9pt}{4pt}
+\clubpenalty=10000\widowpenalty=10000\displaywidowpenalty=10000
+\raggedbottom
+\setlist{leftmargin=1.3em,itemsep=2pt,topsep=3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Food inflation and unemployment in India}
+\fancyhead[R]{\small HS455}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\tabnote}[1]{\par\vspace{2pt}{\footnotesize\emph{Note:} #1\par}}
+\newcommand{\source}[1]{{\footnotesize\emph{Source:} #1\par}}
+\newcommand{\fig}[4]{\begin{figure}[H]\centering\includegraphics[width=\linewidth]{#1}\caption{#2}\label{#3}\source{#4}\end{figure}}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{0.3cm}
+{\fontsize{20}{26}\selectfont\bfseries Food Inflation and Unemployment:\\[6pt] Evidence from Urban India}\\[0.6cm]
+{\Large\bfseries Headline Inflation, Core Inflation and Food-Price Variability}\\[0.8cm]
+{\Large\itshape A Project Report Submitted}\\[0.25cm]
+{\Large\itshape for the Course}\\[0.4cm]
+{\LARGE\bfseries HS455}\\[0.3cm]
+{\large\itshape Instructors}\\[0.15cm]
+{\large\bfseries Dr. Smruti Ranjan Behera}\\[0.1cm]
+{\large\bfseries Samaresh Bardhan\qquad Bhavesh Garg}
+\vfill
+\includegraphics[width=0.44\textwidth]{iit_ropar_logo.png}\\
+\vfill
+{\Large\bfseries HS455 COURSE PROJECT}\\[0.25cm]
+{\Large\bfseries INDIAN INSTITUTE OF TECHNOLOGY ROPAR}\\[0.25cm]
+{\large\bfseries November 2026}\\[0.25cm]
+{\large\itshape by}\\[0.25cm]
+{\Large\bfseries Students}\\[0.25cm]
+{\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{p{6.1cm}p{4.6cm}}\toprule
+\textbf{Name} & \textbf{Entry No.}\\\midrule
+K Harshavardhan & 2023MCB1216\\
+Pasula Kohith & 2023EEB1232\\\bottomrule
+\end{tabular}}
+\end{center}
+\end{titlepage}
+\setcounter{page}{1}\hypersetup{pageanchor=true}
+% MAIN_TEXT_START
+\section{Background and motivation}
+
+Food prices are often the most visible part of inflation. A rise in grocery bills affects everyday spending, but it need not signal the same economic conditions as a rise in prices driven by strong demand. Demand can raise both prices and employment. A poor harvest can raise food prices while employment remains weak. This difference makes the composition of inflation relevant when studying its relationship with unemployment.
+
+The Phillips curve suggests a negative short-run relationship: lower unemployment may accompany stronger wage and price pressures. In actual data, however, demand, supply shocks, expectations and policy responses operate together. Excluding food might reveal a clearer negative relationship if food-price fluctuations obscure demand-related inflation. We examine that possibility rather than assume that a measure called ``core'' must behave in this way.
+
+India is a useful case because Food and Beverages carry 45.86\% of the 2012-base Combined Consumer Price Index (CPI), compared with 36.29\% in Urban CPI. These expenditure weights are large, but they do not directly measure food's contribution to inflation variability. That contribution also depends on price movements and their covariance with other components.
+
+The literature provides useful reference points. Behera, Wahi and Kapur find a role for demand conditions in state-level inflation, with a stronger response for core inflation in their output-gap framework~\cite{behera2017}. Their activity measure differs from our unemployment rate. Patra, John and George investigate food--non-food dynamics using an error-correction model~\cite{patra2024}, while Mohan and co-authors examine inflation volatility and vegetable prices~\cite{mohan2026}. We use these studies to motivate the questions, while keeping our simpler estimates and their limitations clear.
+
+A distinction between the price level and inflation is useful here. A household can still face expensive food after food inflation falls, because a slower rate of increase does not reverse earlier price rises. Likewise, a low average inflation rate can coexist with sharp monthly fluctuations. Our unemployment exercise concerns the rate of price change, while the variance exercise concerns fluctuations around its average. Neither calculation measures the complete burden on a household budget.
+
+This also explains why we keep two outcomes in view. A large food allocation may help explain a noisy headline series, yet it need not reveal what drives unemployment. A clear answer requires checking that second link directly. The value of the exercise is the comparison between the hypotheses and the data, including cases where the expected relationship does not appear.
+
+Our approach joins an Urban unemployment comparison with a broader CPI accounting exercise. The first asks whether core inflation reveals the expected negative association. The second measures how much headline variability is allocated to food. A monthly predictability exercise then extends the analysis to food--non-food spillovers. The three exercises address different questions and should not be read as interchangeable evidence.
+
+\section{Research questions and hypotheses}
+
+\textbf{Question 1: Does excluding food strengthen the negative inflation--unemployment relationship?} We compare headline and operational-core inflation on identical quarterly observations. If their unemployment slopes are $\beta_H$ and $\beta_C$, the hypothesis is a more negative core slope, $\delta=\beta_C-\beta_H<0$, together with a negative core association. Correlations provide a second descriptive comparison. A stronger positive correlation would not support the proposed negative relationship.
+
+\textbf{Question 2: How much variation in headline inflation is due to food?} We expect food's variance allocation to exceed its expenditure weight. ``Due to'' is interpreted as an accounting allocation, including covariance with other components, rather than the share caused by independently identified food shocks.
+
+\textbf{Extension: Does food inflation predict subsequent non-food or core inflation?} We examine whether three delayed food-inflation coefficients are jointly informative after accounting for persistence and calendar effects. This tests conditional predictability; it cannot establish transmission through wages, costs or expectations.
+
+\clearpage
+\section{Data and methodology}
+\subsection{Sources, sample and comparability}
+
+The price data are monthly 2012-base CPI levels, January 2013--December 2025~\cite{cpiapi}. The unemployment series is the Periodic Labour Force Survey (PLFS), All-India Urban, persons aged 15 and above, Current Weekly Status (CWS). CWS uses the preceding seven days; the unemployment rate measures unemployed persons as a percentage of the labour force~\cite{plfs2024}. There are 27 matched quarters from 2018Q2 to 2024Q4.
+
+We match Urban prices with Urban unemployment. Combined CPI, covering rural and urban households, is used separately for the wider inflation-composition question. This avoids silently treating Urban labour-market evidence as national evidence. The redesigned PLFS begins in January 2025~\cite{plfschange}; it is not joined to the earlier quarterly series. Later-base CPI observations are also kept separate.
+
+Data checks found two unemployment API discrepancies. For 2019Q2, 21.6\% refers to the youth row rather than the required 15+ rate of 8.8\%. For 2019Q3, the API gives 8.1\%, while the published bulletin gives 8.3\%~\cite{plfs2019a,plfs2019b}. We retain the bulletin values and record both corrections. The other 25 observations agree with the bulletin transcription.
+
+\subsection{Price-basket construction and inflation measures}
+
+Headline uses the official General index. Operational core excludes Food and Beverages and Fuel and Light, then rescales the retained group weights to sum to one. Food-only exclusion is also tested, since the assignment specifically asks about removing food.
+
+\begin{table}[H]\centering\small
+\caption{Urban CPI weights and the operational-core basket}\label{tab:weights}
+\begin{tabularx}{\linewidth}{Xrrl}\toprule
+Group & Urban weight (\%) & Share of core (\%) & Core treatment\\\midrule
+Food and beverages &36.29&--&Exclude\\
+Pan, tobacco and intoxicants &1.36&2.34&Retain\\
+Clothing and footwear &5.57&9.58&Retain\\
+Housing &21.67&37.28&Retain\\
+Fuel and light &5.58&--&Exclude\\
+Miscellaneous &29.53&50.80&Retain\\\bottomrule
+\end{tabularx}
+\tabnote{Retained weights sum to 58.13\%. Vehicle fuels and precious metals remain within miscellaneous items.}\source{MoSPI CPI release tables~\cite{cpirelease}; calculations.}
+\end{table}
+
+For December 2024, the retained indices give a worked example:
+\begin{equation}
+C_{Dec24}=\frac{1.36(212.2)+5.57(187.8)+21.67(181.7)+29.53(182.0)}{58.13}=183.1505.
+\end{equation}
+Housing represents 37.28\% of this core, so a construction without housing is checked as well.
+
+Rescaling the retained weights prevents the core index from falling simply because two groups have been removed. It keeps the index on a comparable scale before growth rates are calculated. The construction is nevertheless selective: excluding the Fuel and Light group does not remove every item influenced by energy costs. We therefore report exactly what is retained, and use the food-only comparison to separate the assignment's question from our broader operational definition. A label alone would not make these baskets equivalent.
+
+Quarterly levels average all three monthly indices. Year-on-year log inflation is calculated as $100\ln(\bar I_q/\bar I_{q-4})$.
+Urban headline means of 183.7333 in 2023Q4 and 192.9667 in 2024Q4 imply inflation of $4.9032\%$, calculated as $100\ln(192.9667/183.7333)$. This is not an average of rounded published monthly inflation rates.
+
+\clearpage
+\subsection{Descriptive statistics and regression estimation}
+
+We begin with means, medians, sample standard deviations, ranges, skewness and excess kurtosis. The mean describes the average quarter; the median is less affected by an extreme observation. Standard deviation measures dispersion. Positive skewness indicates a longer upper tail; excess kurtosis describes tail weight relative to a normal distribution, whose population value is zero. We use bias-corrected sample moments and avoid treating a few observations as a reliable distributional test.
+
+The standard deviation uses the squared distance of each observation from the sample mean, divided by one less than the number of observations, before taking the square root. Squaring gives a large observation more influence than the median does. Skewness and kurtosis go further by using third and fourth powers of deviations. They are useful warning signals about unusual observations, but can themselves be unstable in a short sample. We therefore read them with the actual plotted observations rather than classify the data from a single cutoff. An extreme value is checked against its source before being treated as either a genuine event or an error; statistical influence alone is not grounds for correcting it.
+
+Pearson correlation measures linear association. Ordinary least squares (OLS) then estimates an intercept and unemployment slope for each inflation measure:
+\begin{equation}
+\pi_{H,q}=\alpha_H+\beta_H U_q+e_{H,q},\qquad
+\pi_{C,q}=\alpha_C+\beta_C U_q+e_{C,q}.
+\label{eq:reg}
+\end{equation}
+The slope is an inflation percentage-point difference associated with a one-percentage-point difference in unemployment. Regressing $D_q=\pi_{C,q}-\pi_{H,q}$ on the same intercept and $U_q$ estimates $\delta$ directly. This uses the relationship between the two inflation outcomes, rather than comparing their separate significance levels.
+
+A second transformation is seasonally adjusted quarter-on-quarter annualised log inflation (q/q SAAR). Robust STL removes a seasonal component from monthly log indices, using period 12 and seasonal window 13. Adjusted logs are converted back to levels before quarterly averaging; inflation is $400\ln(\bar I_q^{SA}/\bar I_{q-1}^{SA})$. Annualisation changes the scale, not the forecast horizon. Annual inflation overlaps across quarters, while q/q inflation is more sensitive to seasonal adjustment; both are therefore reported.
+
+The full sample is compared with a fixed exclusion of 2020Q2, 2020Q3 and 2021Q2, leaving 24 quarters. April--May 2020 CPI includes component-specific macro-imputation~\cite{imputation}; the exclusion also captures exceptional pandemic labour-market conditions. We check alternative baskets, a calendar trend, seasonal settings and leave-one-quarter-out estimates.
+
+\subsection{Exact variance accounting and uncertainty}
+
+For this exercise we use ordinary percentage changes so group contributions can add exactly. With official headline index $H_t$, group index $I_{g,t}$, fractional weight $w_g$ and lag $k$,
+\begin{equation}
+\pi_t=100\left(\frac{H_t}{H_{t-k}}-1\right),\qquad
+c_{g,t}=100w_g\frac{I_{g,t}-I_{g,t-k}}{H_{t-k}}.
+\end{equation}
+We retain a residual $r_t=\pi_t-\sum_g c_{g,t}$ and allocate variance as
+\begin{equation}
+s_g=100\frac{\operatorname{Cov}(c_g,\pi)}{\operatorname{Var}(\pi)}.
+\label{eq:share}
+\end{equation}
+All component and residual shares sum to 100\%. The covariance allocation allows components to reinforce or offset one another; it is not restricted to positive shares. Twelve-month moving-block resampling gives descriptive uncertainty ranges. Matched-period, imputation-exposure and subperiod comparisons check stability.
+
+Regression uncertainty uses HC3, which allows unequal residual variance and adjusts for leverage, alongside calendar-based HAC checks allowing serial dependence. Short samples and overlapping inflation still weaken calibration. We show nominal ranges without significance stars. Expectations, common supply shocks and policy responses remain outside the simple regression, so it is descriptive rather than causal.
+
+\clearpage
+\section{Discussion of results}
+\subsection{A first look at the matched Urban series}
+
+The time paths immediately identify an unusual observation: unemployment reaches 20.8\% in 2020Q2 (Figure~\ref{fig:paths}). Headline and core inflation do not move in a simple mirror image of unemployment. Their shared trends and differing responses suggest that a fitted line will need to be interpreted alongside the distribution and influence checks.
+
+\fig{01_time_paths.pdf}{Matched Urban unemployment and YoY log inflation, 2018Q2--2024Q4. Shading marks 2020--2021.}{fig:paths}{MoSPI/NSO CPI and PLFS; calculations.}
+
+\input{tables/descriptive}
+
+The unemployment mean is 8.88\%, above its median of 8.30\%. Its skewness of 2.69 and excess kurtosis of 9.45 reflect the exceptional upper tail. Excluding the three fixed quarters brings the mean to 8.05\%, the median to 8.00\%, and the standard deviation from 2.98 to 1.32 percentage points. Thus, the pandemic affects both the typical level and the spread available for estimation.
+
+The same arithmetic checks the reported spread: the unemployment squared deviations sum to 231.5667, giving $s_U=\sqrt{231.5667/26}=2.9844$. The median is the fourteenth ordered observation, 8.3. These summaries agree with the concentration visible in the plot.
+
+For annual inflation, headline and core standard deviations are close: 1.02 and 0.99. For q/q SAAR, they are 2.14 and 1.23. Core's short-run standard deviation is about 42.4\% lower, calculated as $100(1-1.2328/2.1388)$. Removing food and fuel smooths short-run inflation; whether it strengthens a negative unemployment relationship remains a separate question.
+
+\clearpage
+\subsection{Distribution and correlation evidence}
+
+Figure~\ref{fig:distribution} makes the contrast visible. Most unemployment observations lie far below the pandemic peak. The inflation boxplots show similar annual dispersion, but a wider short-run headline distribution. The negative excess kurtosis of annual headline and core inflation does not establish normality or stability; with only 27 quarters, these moments are descriptive summaries.
+
+\fig{02_distributions.pdf}{Observed distributions. Boxes show quartiles and medians; dots show all observations. H: headline; C: core; q/q: seasonally adjusted annualised inflation.}{fig:distribution}{Matched-quarter datasets; calculations.}
+
+\fig{03_correlations.pdf}{YoY Pearson correlations: full and fixed-exclusion samples. U denotes unemployment. All correlations use matched rows.}{fig:correlation}{Matched Urban CPI and PLFS; calculations.}
+
+The full-sample unemployment correlation is $+0.276$ with headline inflation and $+0.370$ with core. After the exclusion, it becomes $-0.080$ for headline and $+0.537$ for core. A larger core correlation is therefore a closer \emph{positive} association, rather than the stronger negative association proposed in Question 1.
+
+Correlation standardises the covariance by both series' standard deviations. A regression slope instead keeps the original units. In this simple model their link is $\hat\beta=r(s_\pi/s_U)$. Thus a smaller inflation standard deviation can change the slope even when correlation is unchanged. Comparing both summaries helps distinguish the direction of association from the scale of the price movements.
+
+These correlations should be read within the observed period. They combine recovery, supply conditions and policy responses, and do not hold those forces constant. A correlation matrix helps describe the data, but cannot establish which mechanism generated the association. The regression comparison below checks the same question in inflation percentage-point units.
+
+\clearpage
+\subsection{Regression estimates and a worked calculation}
+
+The estimation can be traced to basic arithmetic. Across 27 quarters, unemployment sums to 239.7, so $\bar U=239.7/27=8.8778$. Its centred sum of squares is 231.5667. For annual headline inflation, the corresponding cross-product is 21.8443:
+\begin{equation}
+\hat\beta_H=\frac{\sum_q(U_q-\bar U)(\pi_{H,q}-\bar\pi_H)}{\sum_q(U_q-\bar U)^2}
+=\frac{21.8443}{231.5667}=0.0943.
+\end{equation}
+The fitted annual lines are $\hat\pi_H=4.3747+0.0943U$ and $\hat\pi_C=3.7507+0.1228U$. These are associations within the sample; the intercept at zero unemployment has no practical interpretation here.
+
+\input{tables/regressions}
+
+\fig{04_phillips_scatter.pdf}{Matched inflation--unemployment observations and OLS fits. Diamonds mark excluded quarters; dashed fits use only the exclusion sample's observed unemployment range.}{fig:scatter}{Matched-quarter datasets; calculations.}
+
+The full annual slope difference is $0.1228-0.0943=+0.0285$. The q/q difference is also positive, at $+0.162$. Under the exclusion, headline slopes become slightly negative but core slopes remain positive. None of the four primary comparisons supports a more negative core relationship. Annual $R^2$ is 0.076 for headline and 0.137 for core: the improved fit concerns a positive slope. In a one-regressor model with an intercept, $R^2=r^2$, so $0.276^2\approx0.076$ checks the calculation.
+
+\clearpage
+\subsection{Uncertainty, influence and robustness}
+
+Figure~\ref{fig:delta} displays the direct comparison with nominal 95\% HC3 ranges. Most ranges include zero. The annual exclusion range is positive, but simulation checks show that persistence and overlap can undermine nominal coverage. We therefore use these ranges to show uncertainty, without claiming a stable positive structural Phillips curve.
+
+\fig{05_slope_difference.pdf}{Core-minus-headline slopes and nominal HC3 ranges. Negative values favour a more negative core slope. All four estimates are positive.}{fig:delta}{Direct difference regressions; calculations.}
+
+\fig{06_influence.pdf}{Influence checks: centred unemployment variation (A) and 27 full-sample leave-one-quarter-out fits per outcome (B). Every core slope remains positive.}{fig:influence}{Unemployment influence and leave-one-quarter-out calculations.}
+
+\input{tables/robustness}
+
+The 2020Q2 observation accounts for 61.38\% of centred unemployment variation; the three excluded quarters account for 75.43\%. Removing them reduces their influence but also sharply reduces the information available to estimate a slope. Food-only exclusion and removing housing leave the core comparison positive. With a calendar trend, the annual slope difference turns negative, but both slopes remain positive. This sensitivity reinforces the need to assess the complete pattern rather than select one favourable coefficient.
+
+\clearpage
+\subsection{How much headline variability is allocated to food?}
+
+Food receives 88.71\% of monthly Combined headline-inflation variance and 80.96\% of annual variance. Urban allocations are lower, at 79.85\% and 64.69\%. All exceed food's respective basket weights of 45.86\% and 36.29\%. Question 2 therefore has a clear accounting answer: food contributes more to measured variability than its expenditure weight alone would suggest.
+
+\input{tables/variance}
+
+\fig{07_food_variance.pdf}{Food allocations to official raw headline variance; descriptive 12-month moving-block ranges use 4,999 draws.}{fig:variance}{Official CPI group contributions and paired moving-block calculations.}
+
+For the monthly Combined basket, headline variance is 0.44393 and its covariance with the food contribution is 0.39381, both in squared percentage points. Applying equation~\eqref{eq:share},
+\begin{equation}
+s_F=100\left(\frac{0.39381}{0.44393}\right)=88.71\%.
+\end{equation}
+This calculation includes food's covariance with other contributions. It is not the variance of food inflation divided by headline variance. The residual closes differences between published headline and weighted group indices, so the complete allocation remains exact.
+
+A component with a steady positive contribution can raise average headline inflation while explaining little of its variability. Conversely, a contribution that swings above and below its mean can receive a large variance share. The covariance formula captures those swings and their alignment with the total. For this reason, our shares should not be read as a breakdown of the average inflation rate, or as the percentage contribution to an individual month's price increase.
+
+The denominator measures how much headline inflation varies around its own sample mean. Keeping the same denominator for every group is essential; using each group's variance instead would answer a different question.
+
+The smaller Urban food weight helps explain the lower Urban allocation, but it is not the only reason: volatility and covariance also differ between baskets. The remaining categories and residual collectively account for 11.29\% of monthly Combined variance. This does not mean their prices or household welfare effects are unimportant. The result describes changes around mean inflation, not which component contributes most to every month's inflation rate.
+
+The annual Combined descriptive range, 70.48--98.98\%, is wider than the monthly range, 85.94--93.14\%. Food remains dominant in these resampling checks, but the exact percentage should not be presented as a universal constant. Different horizons answer different questions.
+
+\clearpage
+\subsection{Monthly contributions and validation of the allocation}
+
+The contribution paths show why food receives a large share. Food repeatedly tracks the larger swings in official headline inflation, while the combined non-food contribution is usually smaller (Figure~\ref{fig:contributions}). The graph still allows exceptions: an allocation over the whole sample does not require food to dominate in every month.
+
+\fig{08_monthly_contributions.pdf}{Official monthly headline inflation and food contributions. Shading combines all other contributions and the residual; raw changes retain seasonality.}{fig:contributions}{Monthly exact-contribution datasets; calculations.}
+
+\input{tables/variance_sensitivity}
+
+The 89.07\% matched-period allocation is close to the full-history 88.71\%. Excluding imputation-exposed monthly changes gives 88.61\%, and the pre-2020 and post-2021 allocations remain high. These comparisons suggest that food dominance is not generated solely by a longer price sample or by the exceptional collection period.
+
+Source validation supports this interpretation. Urban CPI contains 156 consecutive months and 1,092 observations across the groups and General index, with no missing levels. Fifty-six independent anchor comparisons cover eight published months. Weighted group levels reproduce official Urban headline within 0.08034 index points. Exact accounting retains a residual instead of forcing that gap to disappear.
+
+The checks serve different purposes. Complete dates establish coverage; published anchors establish source agreement; the residual establishes arithmetic reconciliation. Agreement across these checks is more persuasive than relying on a successful download or a single headline match.
+
+An earlier 90.59\% estimate uses a reconstructed seasonally adjusted Combined aggregate. It answers a different accounting question. Independently adjusting General and each group with STL creates a large seasonal-reconciliation residual; Appendix~\ref{app:validation} records the distinction. Our main answer consistently uses official raw headline changes.
+
+\clearpage
+\subsection{Extension: food--non-food predictability}
+
+The monthly extension uses 147 continuous observations, October 2013--December 2025. Non-food or core monthly log inflation is regressed on current food inflation, three food lags, one own lag, month effects and a pooled pandemic control. The delayed coefficient sum describes the combined lag association; a joint test asks whether all three delayed coefficients can be zero together. Opposite lag coefficients can offset in the sum.
+
+\input{tables/spillover}
+
+\fig{09_spillover.pdf}{Delayed and current-plus-delayed food coefficients with nominal HC3 ranges. Blue excludes the current month; rust includes it.}{fig:spillover}{Monthly-model contrast estimates; calculations.}
+
+The delayed sums, $-0.0035$ and $-0.0188$, do not detect a positive delayed association under this specification. Their ranges include zero and small positive values. Adding the current-month coefficient gives positive sums of 0.0342 and 0.0180, but their ranges also include zero. Common costs or simultaneous adjustment could generate a same-month association without delayed transmission.
+
+Non-rejection does not establish zero spillover. In recursive simulations, a delayed sum of 0.048 is detected in only 5.4\% of the specified persistent-error non-food datasets. This is a scale comparison, not a replication of the RBI's 0.048 short-run ARDL sum~\cite{patra2024}. Reverse predictability is specification-dependent. The extension therefore adds a cautious result: large headline accounting exposure to food can coexist with weak evidence of delayed predictability in other prices.
+
+\section{Conclusion and policy implications}
+
+The two assigned questions lead to different findings. Food receives about 89\% of monthly and 81\% of annual Combined headline-inflation variance. Urban allocations are about 80\% and 65\%. Yet excluding food and fuel does not uncover a stronger negative unemployment relationship in our matched Urban sample. Core is smoother at the quarterly horizon, but its unemployment slope is positive under both primary transformations and the fixed pandemic exclusion.
+
+The practical lesson is to examine headline and core together. Headline reflects the basket households face; core helps describe price pressures outside selected groups. A useful core measure need not reveal a particular Phillips-curve pattern. Equally, food's large allocation does not establish excessive demand or measure the effectiveness of a policy intervention.
+
+Food-price monitoring should examine weather, arrivals, storage and distribution, consistent with RBI research~\cite{mohan2026,patra2024}. Our estimates do not identify an optimal policy response. Pandemic leverage, overlapping inflation and omitted expectations limit the unemployment comparison; low power limits the spillover findings. State-level and common-driver data are useful next steps.
+\label{main:last}
+% MAIN_TEXT_END
+
+\clearpage
+\begin{thebibliography}{99}\small
+\setlength{\itemsep}{6pt}
+\bibitem{cpiapi} Ministry of Statistics and Programme Implementation (MoSPI). \emph{Consumer Price Index API}, version 2.0.0. Historical 2012-base Current Series, All India Urban. Retrieved 21 November 2026. \url{https://esankhyiki.mospi.gov.in/macroindicators?product=cpi&tab=api}. Query schema and complete raw responses are archived in the research package.
+\bibitem{cpirelease} National Statistical Office (NSO) (2025). \emph{Consumer Price Index Numbers on Base 2012=100 for January 2025}. Release dated 12 February, Annexure I (December 2024 final values and group weights). \url{https://www.mospi.gov.in/sites/default/files/press_release/CPI_PR_12Feb25.pdf}.
+\bibitem{plfs2024} NSO (2025). \emph{Quarterly Bulletin, Periodic Labour Force Survey, October--December 2024}. Statement 5 and age-15+ Urban tables. \url{https://mospi.gov.in/sites/default/files/publication_reports/PLFS_Quarterly_Bulletin_Oct-Dec24.pdf}. Earlier bulletin sources for each quarter are recorded in the dataset.
+\bibitem{plfs2019a} NSO. \emph{Quarterly Bulletin, Periodic Labour Force Survey, April--June 2019}. Statement 5, printed p.~6 (PDF p.~9). \url{https://www.mospi.gov.in/sites/default/files/publication_reports/Quarterly_Bulletin_PLFS_April_June_2019_M_0.pdf}.
+\bibitem{plfs2019b} NSO. \emph{Quarterly Bulletin, Periodic Labour Force Survey, July--September 2019}. Statement 5, printed p.~6 (PDF p.~9). \url{https://mospi.gov.in/sites/default/files/publication_reports/Quarterly_Bulletin_July_September_2019_M.pdf}.
+\bibitem{plfschange} MoSPI (2025). \emph{PLFS: Changes in 2025}. Survey-design and comparability note. \url{https://www.mospi.gov.in/sites/default/files/publication_reports/PLFS_Changes-in-2025_rev.pdf}.
+\bibitem{imputation} NSO (2020). \emph{Compilation of Consumer Price Index: A Technical Note}. Table 1, imputed April--May 2020 indices. \url{https://www.mospi.gov.in/sites/default/files/press_release/CPI%20Technical%20Note%20on%20Imputation.pdf}.
+\bibitem{behera2017} Behera, H., Wahi, G., and Kapur, M. (2017). \emph{Phillips Curve Relationship in India: Evidence from State-Level Analysis}. RBI Working Paper Series (DEPR), 08/2017, 3 July. \url{https://rbi.org.in/Scripts/PublicationsView.aspx?id=17752}.
+\bibitem{patra2024} Patra, M.~D., John, J., and George, A.~T. (2024). ``Are Food Prices the `True' Core of India's Inflation?'' \emph{RBI Bulletin}, 18 January, especially Table 3. \url{https://rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=22323}.
+\bibitem{mohan2026} Mohan, R., Hasan, S., Sarkar, S., and John, J. (2026). ``Retail Inflation Volatility in India: Sources, Determinants, and Implications.'' \emph{RBI Bulletin}, 20 February. \url{https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=23980}.
+\end{thebibliography}
+\clearpage
+\appendix
+\section{Estimation details and inference checks}
+\input{tables/regression_details}
+\input{tables/calibration}
+\fig{10_power.pdf}{Design-specific power for the non-food equation under AR/GARCH errors. Each point uses 1,000 recursive datasets and bootstrap tests use 999 inner draws. At a delayed sum of 0.048, bootstrap rejection is 5.4\%; at 0.100 it is 31.6\%; at 0.200 it is 93.8\%. Higher null rejection can also inflate apparent power.}{fig:power}{Recursive simulation results; equal allocation of the true effect over three food lags.}
+
+\clearpage
+\section{Accounting definitions, validation and reproducibility}
+\label{app:validation}
+\subsection*{Seasonal reconciliation and the historical figure}
+The historical 90.5899\% allocation is reproducible for a reconstructed aggregate made from independently seasonally adjusted groups. It is not the raw official-headline target used in this report. When official General and all groups are adjusted independently with STL, the reconciliation residual receives 24.2410\% of Combined variance and 25.0889\% of Urban variance. Food's direct-adjustment allocations are then 69.7544\% and 61.3913\%. The residual includes inconsistencies from separate seasonal adjustment and is not an omitted economic sector.
+
+\subsection*{Sources, imputation and scope}
+PLFS corrections use Statement 5, printed page 6 (PDF page 9), in the 2019Q2 and 2019Q3 bulletins. The CPI validation retains the technical note's group-specific imputation flags. Urban pan/tobacco is marked macro-imputed in April 2020 but not in May; Urban housing and fuel/light are not marked in either month. This does not rule out elementary-level imputation. Annual sensitivity removes changes using April--May 2020 as numerator or denominator, including April--May 2021.
+
+No missing state indices are interpolated. The proposed state panel remains future work, with no estimates used here. The principal unemployment findings refer to Urban persons aged 15+ and do not represent rural labour-market relationships. Old-base prices and redesigned-survey observations remain separate.
+
+\subsection*{Inference and implementation checks}
+The direct difference slope equals the difference of the two separately estimated slopes, including when a calendar trend is used. Calendar HAC respects actual quarter distances after exclusions. Quarterly simulations with the observed unemployment regressor show that persistent and overlapping errors can cause excessive nominal rejection, so no significance-star interpretation is adopted.
+
+The monthly calibration regenerates lagged outcomes recursively in 1,000 datasets per design, with 999 inner bootstrap draws. Independent Gaussian, AR/GARCH Gaussian and heavy-tailed innovations are considered. Block-wild null rejection ranges from 4.0--6.1\% for non-food and 4.3--7.1\% for core. These are design-specific checks, not a general guarantee of correct inference. Historical excluded-month tests that compress outcome rows are not promoted to calibrated evidence.
+
+Twenty historical model delayed sums and sample sizes were reproduced. Fourteen research tests cover source resolution, quarterly completeness, exact accounting and inference behaviour; seven targeted inference/selection defects were injected and caught. These checks establish reproducibility, not causal identification. A post-results reverse relative-price sensitivity changes a joint bootstrap tail from 0.0965 to 0.0341, illustrating specification dependence rather than establishing cointegration or a causal direction.
+
+\subsection*{Reproducing the report}
+The source package includes the main LaTeX file, logo, vector figures, generated tables, portable CSV subset and Python figure/table/verification scripts. The data register records sources and decisions. The separate research checkpoint archive contains the full raw-source retrieval and estimation code. Main report models were retained from the research stage rather than selected to obtain favourable results. Sample moments use $n-1$ variance and finite-sample-corrected skewness/excess kurtosis; Pearson correlations and OLS comparisons always use matched rows.
+\end{document}

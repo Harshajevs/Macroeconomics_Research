@@ -1,0 +1,10 @@
+HS455 Stage 6 validation test record
+Date: 17 November 2026
+Command: python -m unittest tests.test_stage6_plfs_ur_data tests.test_stage6_urban_cpi_validator -v
+Result: PASS — 13 tests, 0 failures, 0 errors.
+
+PLFS tests (6): complete ordered quarter calendar; source-transcription values; series dimensions and primary provenance; overlapping-bulletin matches; pandemic observations retained and flagged; no claim of model estimation.
+
+Urban CPI validator tests (7): valid synthetic 96-month panel accepted; missing month rejected; duplicate month rejected; wrong sector rejected; wrong base year rejected; blank index rejected; missing source URL/provenance rejected.
+
+Scope boundary: The CPI validator tests use synthetic fixtures. They do not validate a real MoSPI CPI download. The CPI input template remains blank. No Urban CPI panel, inflation transformations, correlations, or Phillips-curve regressions have been produced.

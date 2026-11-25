@@ -1,0 +1,13 @@
+sector,frequency,sample,block_length,replications,estimate,ci_low,ci_high,interpretation
+Combined,MoM_raw,full_history,6,4999,88.70902098523526,83.44796630311659,93.32465948793755,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Combined,MoM_raw,full_history,12,4999,88.70902098523526,85.93846187313933,93.1378569882928,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Combined,MoM_STL7,full_history,6,4999,69.75437585894147,61.09997243567643,77.29096757299949,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Combined,MoM_STL7,full_history,12,4999,69.75437585894147,60.444675460467934,78.32174885553836,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Combined,YoY_raw,full_history,6,4999,80.9568126847592,71.072881649698,94.93104080972854,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Combined,YoY_raw,full_history,12,4999,80.9568126847592,70.48273480865231,98.97808132383554,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,MoM_raw,full_history,6,4999,79.84594679276566,71.78724411906072,88.47993216359298,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,MoM_raw,full_history,12,4999,79.84594679276566,76.16804886765244,87.78473277911627,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,MoM_STL7,full_history,6,4999,61.391273719899445,40.640195758733064,80.54075322574289,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,MoM_STL7,full_history,12,4999,61.391273719899445,40.92486785293533,83.30266673540574,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,YoY_raw,full_history,6,4999,64.68571302666726,51.997258137722056,80.09649026092626,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed
+Urban,YoY_raw,full_history,12,4999,64.68571302666726,50.2723608307171,84.37931151867193,Descriptive moving-block interval; seasonal factors fixed; finite-sample calibration not guaranteed

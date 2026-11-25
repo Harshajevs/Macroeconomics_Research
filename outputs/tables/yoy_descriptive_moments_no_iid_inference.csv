@@ -1,0 +1,6 @@
+series,frequency,n,mean,median,variance,sd,min,max,skewness,excess_kurtosis,acf1,inference_note
+Food and Beverages,YoY (%),144,4.90615103,5.15837369,10.72112598,3.27431306,-3.72492837,12.15629522,-0.29473175,-0.47745265,0.89895788,Descriptive only: overlapping 12-month windows; do not use iid Jarque-Bera p-values or conventional iid confidence intervals.
+Non-food,YoY (%),144,4.93714119,4.74909112,1.75166888,1.32350628,2.22813987,7.93847112,0.10524274,-0.44114921,0.96763134,Descriptive only: overlapping 12-month windows; do not use iid Jarque-Bera p-values or conventional iid confidence intervals.
+Headline,YoY (%),144,4.90686586,5.00223619,2.88759364,1.69929210,0.25406504,8.60420650,-0.18775790,-0.19969700,0.89835603,Descriptive only: overlapping 12-month windows; do not use iid Jarque-Bera p-values or conventional iid confidence intervals.
+Core,YoY (%),144,5.02280783,4.90214519,1.12251286,1.05948707,3.11737487,8.41216315,0.65508252,0.63230231,0.95602612,Descriptive only: overlapping 12-month windows; do not use iid Jarque-Bera p-values or conventional iid confidence intervals.
+CFPI,YoY (%),144,4.85762116,5.05866008,14.63513042,3.82558890,-5.02131691,14.19117647,-0.17426490,-0.42955985,0.89750040,Descriptive only: overlapping 12-month windows; do not use iid Jarque-Bera p-values or conventional iid confidence intervals.

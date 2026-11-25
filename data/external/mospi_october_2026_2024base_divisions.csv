@@ -1,0 +1,17 @@
+release_date,reference_month,base_year,sector,measure,category,inflation_pct,period_status,source_page
+2026-11-12,2026-09,2024,Combined,CPI_general,Headline CPI,5.54,Final,1
+2026-11-12,2026-10,2024,Combined,CPI_general,Headline CPI,6.09,Provisional,1
+2026-11-12,2026-09,2024,Combined,CFPI,Food inflation CFPI,7.74,Final,1
+2026-11-12,2026-10,2024,Combined,CFPI,Food inflation CFPI,8.94,Provisional,1
+2026-11-12,2026-10,2024,Combined,Division_CPI,Food and beverages,8.51,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Paan tobacco and intoxicants,4.93,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Clothing and footwear,4.96,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Housing water electricity gas and other fuels,2.90,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Furnishings household equipment and routine household maintenance,3.94,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Health,2.05,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Transport,5.84,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Information and communication,3.16,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Recreation sport and culture,2.52,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Education services,4.02,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Restaurants and accommodation services,10.06,Provisional,2
+2026-11-12,2026-10,2024,Combined,Division_CPI,Personal care social protection and miscellaneous goods and services,10.14,Provisional,2

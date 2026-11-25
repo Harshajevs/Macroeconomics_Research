@@ -1,0 +1,3 @@
+relative_price_added,own_lag_p,n,joint_block_bootstrap_tail,reps,seed,relative_price_coefficient,relative_price_scale,interpretation
+False,0,144,0.09648,49999,45522000,,"100 ln(raw food/nonfood), lag1; coefficient in monthly-inflation pp per relative-price log percentage point","Exploratory post-results STL reverse sensitivity; predictive association, not causal transmission or proof of cointegration"
+True,0,144,0.03408,49999,45522001,-0.05851480351489624,"100 ln(raw food/nonfood), lag1; coefficient in monthly-inflation pp per relative-price log percentage point","Exploratory post-results STL reverse sensitivity; predictive association, not causal transmission or proof of cointegration"

@@ -1,0 +1,4 @@
+FOOD SUBGROUP AGGREGATION CHECK
+Food subgroup weights sum: 45.86% (official Food & Beverages weight 45.86%)
+Weighted subgroup food index vs official Food & Beverages: mean abs gap 0.0333; max abs gap 0.0934 index points.
+The food-ex-vegetables index is a derived fixed-weight proxy from published subgroup indices and official rounded subgroup weights; it is not an independently published MoSPI series.

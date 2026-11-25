@@ -1,0 +1,10 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+dependent_level,explanatory_level,trend_specification,EG_statistic,EG_pvalue,critical_1pct,critical_5pct,critical_10pct,interpretation
+Non-food,Food and Beverages,c,-2.47739653,0.28912780,-3.97466626,-3.37919163,-3.07424176,Do not reject no cointegration at 5%
+Non-food,Food and Beverages,ct,-2.25437682,0.65267967,-4.43732772,-3.84766814,-3.54619212,Do not reject no cointegration at 5%
+Core,Food and Beverages,c,-2.30980466,0.36867068,-3.97466626,-3.37919163,-3.07424176,Do not reject no cointegration at 5%
+Core,Food and Beverages,ct,-2.84292325,0.33693036,-4.43732772,-3.84766814,-3.54619212,Do not reject no cointegration at 5%
+Food and Beverages,Non-food,c,-2.49949500,0.27929179,-3.97466626,-3.37919163,-3.07424176,Do not reject no cointegration at 5%
+Food and Beverages,Non-food,ct,-2.15228633,0.70342106,-4.43732772,-3.84766814,-3.54619212,Do not reject no cointegration at 5%
+Non-food (headline-derived),Food and Beverages,c,-2.48134723,0.28735685,-3.97466626,-3.37919163,-3.07424176,Do not reject no cointegration at 5%
+Non-food (headline-derived),Food and Beverages,ct,-2.57086786,0.48107686,-4.43732772,-3.84766814,-3.54619212,Do not reject no cointegration at 5%

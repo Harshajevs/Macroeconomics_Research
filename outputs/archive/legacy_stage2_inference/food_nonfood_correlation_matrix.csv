@@ -1,0 +1,7 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+,food_yoy,nonfood_yoy,headline_yoy,core_yoy,cfpi_yoy
+food_yoy,1.000000,0.006825,0.907002,0.084849,0.996501
+nonfood_yoy,0.006825,1.000000,0.425813,0.956578,-0.052706
+headline_yoy,0.907002,0.425813,1.000000,0.477976,0.878527
+core_yoy,0.084849,0.956578,0.477976,1.000000,0.028352
+cfpi_yoy,0.996501,-0.052706,0.878527,0.028352,1.000000

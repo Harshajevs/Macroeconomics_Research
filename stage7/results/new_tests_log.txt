@@ -1,0 +1,35 @@
+test_actual_common_sample_slopes_against_statsmodels (test_actual_inputs_and_outputs.ActualInputsOutputs.test_actual_common_sample_slopes_against_statsmodels) ... ok
+test_exact_source_snapshot_and_bulletin_resolutions (test_actual_inputs_and_outputs.ActualInputsOutputs.test_exact_source_snapshot_and_bulletin_resolutions) ... ok
+test_exact_legacy_wald_and_rng_tail (test_fast_bootstrap.FastBootstrap.test_exact_legacy_wald_and_rng_tail) ... ok
+test_block_signs_are_rademacher_on_offset_six_month_grid (test_legacy_inference_protection.LegacyInferenceProtection.test_block_signs_are_rademacher_on_offset_six_month_grid) ... ok
+test_bootstrap_t_endpoints_against_independent_statsmodels (test_legacy_inference_protection.LegacyInferenceProtection.test_bootstrap_t_endpoints_against_independent_statsmodels) ... ok
+test_estimate_passes_fixed_candidate_covid_horizon (test_legacy_inference_protection.LegacyInferenceProtection.test_estimate_passes_fixed_candidate_covid_horizon) ... /Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:133: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg6 = float(acorr_breusch_godfrey(res, nlags=6)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:134: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg12 = float(acorr_breusch_godfrey(res, nlags=12)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:133: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg6 = float(acorr_breusch_godfrey(res, nlags=6)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:134: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg12 = float(acorr_breusch_godfrey(res, nlags=12)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:133: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg6 = float(acorr_breusch_godfrey(res, nlags=6)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:134: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg12 = float(acorr_breusch_godfrey(res, nlags=12)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:133: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg6 = float(acorr_breusch_godfrey(res, nlags=6)[1])
+/Users/harshavardhan/Documents/Codex/2026-11-21/i-x20-2/outputs/hs455_research/src/estimate_baseline.py:134: FutureWarning: acorr_breusch_godfrey currently returns a plain tuple whose length depends on the store argument. In release 0.16 or after July 2027, whichever is later, the default behavior will switch to always returning an LMTestResult NamedTuple. Set result_object=True to switch now, or result_object=False to keep the current behavior and silence this warning.
+  bg12 = float(acorr_breusch_godfrey(res, nlags=12)[1])
+ok
+test_restricted_null_bandwidth_and_plus_one_tail (test_legacy_inference_protection.LegacyInferenceProtection.test_restricted_null_bandwidth_and_plus_one_tail) ... ok
+test_zero_covid_column_removed_after_calendar_mask (test_legacy_inference_protection.LegacyInferenceProtection.test_zero_covid_column_removed_after_calendar_mask) ... ok
+test_calendar_hac_does_not_bridge_excluded_quarters (test_research_math.ResearchMath.test_calendar_hac_does_not_bridge_excluded_quarters) ... ok
+test_hc3_matches_statsmodels (test_research_math.ResearchMath.test_hc3_matches_statsmodels) ... ok
+test_no_silent_missing_input_in_regression (test_research_math.ResearchMath.test_no_silent_missing_input_in_regression) ... ok
+test_official_headline_exact_accounting_has_residual (test_research_math.ResearchMath.test_official_headline_exact_accounting_has_residual) ... ok
+test_paired_slope_identity_with_trend_and_common_rows (test_research_math.ResearchMath.test_paired_slope_identity_with_trend_and_common_rows) ... ok
+test_quarter_requires_three_actual_months (test_research_math.ResearchMath.test_quarter_requires_three_actual_months) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.199s
+
+OK

@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# LaTeX build products; keep published PDFs and source figures
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+report/report.pdf
+report/compile_stdout.txt

@@ -1,0 +1,14 @@
+STAGE 6 PLFS UR DATA VALIDATION
+Validation scope: source-transcribed urban quarterly CWS unemployment-rate series only.
+No CPI data construction, Phillips-curve regression, correlation analysis or estimation was run.
+
+Observations: 27
+Quarter coverage: 2018Q2 to 2024Q4
+Unique ordered quarter IDs: PASS (27)
+Missing UR values: PASS (0)
+Primary source URLs: PASS (27)
+Overlapping-bulletin cross-check comparisons: PASS (17 of 17 match across 16 quarters)
+Unemployment rate range: 6.4% to 20.8%
+Value precision: official bulletin values transcribed to published one-decimal precision.
+Special attention: 2020Q2 = 20.8%; retained as reported; pandemic-sensitive exclusions remain predeclared design sensitivities.
+Interpretation: validation confirms the transcription structure and recorded overlaps, not independent microdata re-estimation or the official statistical methodology.

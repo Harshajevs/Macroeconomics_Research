@@ -1,0 +1,12 @@
+HEADLINE VALIDATION (official MoSPI series, CPI Combined, base 2012=100)
+Index months available: 156 (2013-01 to 2025-12)
+Analysis window: 2014-01 to 2025-12 (144 months)
+Months with no published YoY: ['2020-04', '2020-05'] (MoSPI: not compiled due to Covid-19)
+Computed YoY (from rounded indices) vs published YoY: max gap 0.005 pp, mean 0.002 pp, months > 0.10 pp: 0
+  OK: differences are consistent with rounding of one-decimal indices
+April–May 2020 index levels in this continuous series are from the later MoSPI/NSO business-continuity reconstruction and contain imputed components; the contemporaneous General CPI/YoY releases were incomplete or unavailable.
+  Index-computed YoY from the reconstructed levels: 7.22% and 6.27% (not published official YoY rates; interpret as imputation-sensitive).
+Dec 2025 index and inflation are marked provisional by MoSPI.
+OVERALL: PASS
+
+2-6% BAND, 2014-01 to 2025-12: within band: 100, above 6%: 35, below 2%: 7, gap: 2

@@ -1,0 +1,8 @@
+group_code,group_name,urban_weight_pct,core_treatment,renormalised_core_weight_pct,source_url,base_year
+1,Food and Beverages,36.29,Exclude,,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+2,"Pan, Tobacco and Intoxicants",1.36,Retain,2.3396,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+3,Clothing and Footwear,5.57,Retain,9.5820,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+4,Housing,21.67,Retain,37.2785,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+5,Fuel and Light,5.58,Exclude,,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+6,Miscellaneous,29.53,Retain,50.7999,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012
+,TOTAL,100.00,,,https://mospi.gov.in/sites/default/files/press_release/CPI_PR_12apr18th.pdf,2012

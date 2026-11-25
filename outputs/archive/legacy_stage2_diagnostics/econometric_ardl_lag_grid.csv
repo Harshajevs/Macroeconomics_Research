@@ -1,0 +1,146 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+dependent_level,explanatory_level,AR_lags_p,distributed_lags_q,AIC,BIC
+Non-food,Food and Beverages,1,1,-1335.25979545,-1287.85428136
+Non-food,Food and Beverages,1,2,-1333.48642757,-1283.11806886
+Non-food,Food and Beverages,1,3,-1332.59249411,-1279.26129076
+Non-food,Food and Beverages,1,4,-1333.13385361,-1276.83980563
+Non-food,Food and Beverages,1,5,-1332.13634709,-1272.87945448
+Non-food,Food and Beverages,1,6,-1330.70566033,-1268.48592310
+Non-food,Food and Beverages,2,1,-1337.79550370,-1287.54644372
+Non-food,Food and Beverages,2,2,-1336.21225788,-1283.00737085
+Non-food,Food and Beverages,2,3,-1335.31552388,-1279.15480978
+Non-food,Food and Beverages,2,4,-1337.05485460,-1277.93831345
+Non-food,Food and Beverages,2,5,-1335.80729085,-1273.73492264
+Non-food,Food and Beverages,2,6,-1334.98509737,-1269.95690210
+Non-food,Food and Beverages,3,1,-1325.85345612,-1272.77577809
+Non-food,Food and Beverages,3,2,-1324.16221347,-1268.13577555
+Non-food,Food and Beverages,3,3,-1323.48649729,-1264.51129948
+Non-food,Food and Beverages,3,4,-1325.13806821,-1263.21411051
+Non-food,Food and Beverages,3,5,-1323.86451576,-1258.99179817
+Non-food,Food and Beverages,3,6,-1323.30717271,-1255.48569524
+Non-food,Food and Beverages,4,1,-1316.51762521,-1260.62641918
+Non-food,Food and Beverages,4,2,-1314.71873327,-1255.88588482
+Non-food,Food and Beverages,4,3,-1313.71261703,-1251.93812616
+Non-food,Food and Beverages,4,4,-1312.94997362,-1248.23384032
+Non-food,Food and Beverages,4,5,-1311.64885576,-1243.99108004
+Non-food,Food and Beverages,4,6,-1310.93118304,-1240.33176490
+Non-food,Food and Beverages,5,1,-1304.42417687,-1245.73469821
+Non-food,Food and Beverages,5,2,-1302.58950969,-1240.96555709
+Non-food,Food and Beverages,5,3,-1301.50011322,-1236.94168669
+Non-food,Food and Beverages,5,4,-1300.80493743,-1233.31203697
+Non-food,Food and Beverages,5,5,-1299.14174688,-1228.71437248
+Non-food,Food and Beverages,5,6,-1298.43906190,-1225.07721357
+Non-food,Food and Beverages,6,1,-1293.77258162,-1232.30025423
+Non-food,Food and Beverages,6,2,-1291.96290561,-1227.56332454
+Non-food,Food and Beverages,6,3,-1290.86549453,-1223.53865977
+Non-food,Food and Beverages,6,4,-1290.25285305,-1219.99876460
+Non-food,Food and Beverages,6,5,-1288.45322512,-1215.27188300
+Non-food,Food and Beverages,6,6,-1287.23185454,-1211.12325873
+Core,Food and Beverages,1,1,-1381.28781581,-1333.88230173
+Core,Food and Beverages,1,2,-1379.37076345,-1329.00240473
+Core,Food and Beverages,1,3,-1378.57678157,-1325.24557822
+Core,Food and Beverages,1,4,-1378.96242301,-1322.66837503
+Core,Food and Beverages,1,5,-1377.91209252,-1318.65519991
+Core,Food and Beverages,1,6,-1376.90950745,-1314.68977022
+Core,Food and Beverages,2,1,-1374.07375269,-1323.82469271
+Core,Food and Beverages,2,2,-1372.66990374,-1319.46501671
+Core,Food and Beverages,2,3,-1371.65901473,-1315.49830063
+Core,Food and Beverages,2,4,-1372.62384369,-1313.50730254
+Core,Food and Beverages,2,5,-1371.13406825,-1309.06170004
+Core,Food and Beverages,2,6,-1370.76384962,-1305.73565435
+Core,Food and Beverages,3,1,-1361.50463876,-1308.42696073
+Core,Food and Beverages,3,2,-1360.13848560,-1304.11204768
+Core,Food and Beverages,3,3,-1358.73636839,-1299.76117058
+Core,Food and Beverages,3,4,-1359.68144278,-1297.75748509
+Core,Food and Beverages,3,5,-1358.18672478,-1293.31400719
+Core,Food and Beverages,3,6,-1357.82143159,-1289.99995411
+Core,Food and Beverages,4,1,-1352.24440120,-1296.35319517
+Core,Food and Beverages,4,2,-1350.74578055,-1291.91293210
+Core,Food and Beverages,4,3,-1349.16362333,-1287.38913246
+Core,Food and Beverages,4,4,-1347.16866156,-1282.45252826
+Core,Food and Beverages,4,5,-1345.69965486,-1278.04187914
+Core,Food and Beverages,4,6,-1345.17506910,-1274.57565095
+Core,Food and Beverages,5,1,-1340.06870628,-1281.37922762
+Core,Food and Beverages,5,2,-1338.57691529,-1276.95296269
+Core,Food and Beverages,5,3,-1336.93332993,-1272.37490340
+Core,Food and Beverages,5,4,-1334.96588503,-1267.47298457
+Core,Food and Beverages,5,5,-1333.11657773,-1262.68920334
+Core,Food and Beverages,5,6,-1332.54399465,-1259.18214632
+Core,Food and Beverages,6,1,-1327.62814152,-1266.15581413
+Core,Food and Beverages,6,2,-1326.17643503,-1261.77685396
+Core,Food and Beverages,6,3,-1324.58296529,-1257.25613053
+Core,Food and Beverages,6,4,-1322.61009627,-1252.35600782
+Core,Food and Beverages,6,5,-1320.77128853,-1247.58994641
+Core,Food and Beverages,6,6,-1319.77003135,-1243.66143553
+Food and Beverages,Non-food,1,1,-923.45932900,-876.05381491
+Food and Beverages,Non-food,1,2,-926.40379844,-876.03543972
+Food and Beverages,Non-food,1,3,-926.48109054,-873.14988720
+Food and Beverages,Non-food,1,4,-926.52638276,-870.23233479
+Food and Beverages,Non-food,1,5,-925.80595846,-866.54906586
+Food and Beverages,Non-food,1,6,-924.48742269,-862.26768545
+Food and Beverages,Non-food,2,1,-922.87480691,-872.62574694
+Food and Beverages,Non-food,2,2,-928.61880838,-875.41392135
+Food and Beverages,Non-food,2,3,-927.66200986,-871.50129577
+Food and Beverages,Non-food,2,4,-927.10565834,-867.98911719
+Food and Beverages,Non-food,2,5,-925.99155855,-863.91919034
+Food and Beverages,Non-food,2,6,-924.75612995,-859.72793468
+Food and Beverages,Non-food,3,1,-921.59084575,-868.51316773
+Food and Beverages,Non-food,3,2,-926.65709530,-870.63065738
+Food and Beverages,Non-food,3,3,-924.75317173,-865.77797393
+Food and Beverages,Non-food,3,4,-924.99863199,-863.07467429
+Food and Beverages,Non-food,3,5,-924.21995626,-859.34723867
+Food and Beverages,Non-food,3,6,-922.91513271,-855.09365523
+Food and Beverages,Non-food,4,1,-912.01939510,-856.12818907
+Food and Beverages,Non-food,4,2,-917.06904818,-858.23619972
+Food and Beverages,Non-food,4,3,-915.15640530,-853.38191442
+Food and Beverages,Non-food,4,4,-915.25053754,-850.53440424
+Food and Beverages,Non-food,4,5,-914.39270021,-846.73492449
+Food and Beverages,Non-food,4,6,-913.07183532,-842.47241718
+Food and Beverages,Non-food,5,1,-903.03913106,-844.34965240
+Food and Beverages,Non-food,5,2,-908.22327881,-846.59932622
+Food and Beverages,Non-food,5,3,-906.27951863,-841.72109210
+Food and Beverages,Non-food,5,4,-906.31924818,-838.82634772
+Food and Beverages,Non-food,5,5,-905.72492209,-835.29754769
+Food and Beverages,Non-food,5,6,-904.25286352,-830.89101519
+Food and Beverages,Non-food,6,1,-893.66385205,-832.19152466
+Food and Beverages,Non-food,6,2,-899.06755468,-834.66797361
+Food and Beverages,Non-food,6,3,-897.19205198,-829.86521722
+Food and Beverages,Non-food,6,4,-896.97888080,-826.72479236
+Food and Beverages,Non-food,6,5,-896.40863198,-823.22728985
+Food and Beverages,Non-food,6,6,-894.81524177,-818.70664596
+Non-food (headline-derived),Food and Beverages,1,1,-1308.02071762,-1260.61520354
+Non-food (headline-derived),Food and Beverages,1,2,-1306.19356150,-1255.82520279
+Non-food (headline-derived),Food and Beverages,1,3,-1306.03359457,-1252.70239123
+Non-food (headline-derived),Food and Beverages,1,4,-1305.84601329,-1249.55196531
+Non-food (headline-derived),Food and Beverages,1,5,-1306.41728604,-1247.16039344
+Non-food (headline-derived),Food and Beverages,1,6,-1305.26549563,-1243.04575840
+Non-food (headline-derived),Food and Beverages,2,1,-1300.56517107,-1250.31611109
+Non-food (headline-derived),Food and Beverages,2,2,-1298.87951899,-1245.67463196
+Non-food (headline-derived),Food and Beverages,2,3,-1298.60643242,-1242.44571833
+Non-food (headline-derived),Food and Beverages,2,4,-1299.03609886,-1239.91955771
+Non-food (headline-derived),Food and Beverages,2,5,-1299.32239364,-1237.25002544
+Non-food (headline-derived),Food and Beverages,2,6,-1298.65615185,-1233.62795658
+Non-food (headline-derived),Food and Beverages,3,1,-1289.50521882,-1236.42754080
+Non-food (headline-derived),Food and Beverages,3,2,-1287.77341245,-1231.74697453
+Non-food (headline-derived),Food and Beverages,3,3,-1288.04925196,-1229.07405415
+Non-food (headline-derived),Food and Beverages,3,4,-1288.47399970,-1226.55004200
+Non-food (headline-derived),Food and Beverages,3,5,-1288.81458876,-1223.94187117
+Non-food (headline-derived),Food and Beverages,3,6,-1288.54519060,-1220.72371312
+Non-food (headline-derived),Food and Beverages,4,1,-1279.28201974,-1223.39081371
+Non-food (headline-derived),Food and Beverages,4,2,-1277.42847336,-1218.59562491
+Non-food (headline-derived),Food and Beverages,4,3,-1277.54545214,-1215.77096126
+Non-food (headline-derived),Food and Beverages,4,4,-1276.61743710,-1211.90130380
+Non-food (headline-derived),Food and Beverages,4,5,-1276.90735521,-1209.24957949
+Non-food (headline-derived),Food and Beverages,4,6,-1276.45039214,-1205.85097400
+Non-food (headline-derived),Food and Beverages,5,1,-1269.52807146,-1210.83859280
+Non-food (headline-derived),Food and Beverages,5,2,-1267.62959645,-1206.00564386
+Non-food (headline-derived),Food and Beverages,5,3,-1267.42069158,-1202.86226505
+Non-food (headline-derived),Food and Beverages,5,4,-1266.52299577,-1199.03009531
+Non-food (headline-derived),Food and Beverages,5,5,-1264.66962231,-1194.24224792
+Non-food (headline-derived),Food and Beverages,5,6,-1264.20280249,-1190.84095416
+Non-food (headline-derived),Food and Beverages,6,1,-1258.32047136,-1196.84814398
+Non-food (headline-derived),Food and Beverages,6,2,-1256.43720984,-1192.03762876
+Non-food (headline-derived),Food and Beverages,6,3,-1256.25758020,-1188.93074544
+Non-food (headline-derived),Food and Beverages,6,4,-1255.43245494,-1185.17836650
+Non-food (headline-derived),Food and Beverages,6,5,-1253.56860684,-1180.38726471
+Non-food (headline-derived),Food and Beverages,6,6,-1252.48113268,-1176.37253686

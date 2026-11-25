@@ -1,0 +1,24 @@
+25 November 2026: 213 numerical, document and preservation checks passed.
+
+Approved main wording and equations match the previous clarity revision after
+ignoring page-break and float-barrier commands. References and appendices also
+match apart from those pagination commands. All 60 files in assets, tables and
+research_data match the preservation baseline byte-for-byte.
+The checks independently re-evaluate descriptive statistics, correlations,
+OLS estimates and fit, direct differences, HC3 ranges, leave-one-out estimates,
+variance allocations, calendar means and the variance/covariance calculation.
+
+The five mandatory sections remain in order. Section 5 retains separate
+Conclusion and Policy implications subsections. Main text is 3,970 words on
+11 main pages. The complete PDF is 13 pages including the cover. References
+occupy less than half a usable page. Both team emails link to mailto addresses.
+All 33 populated PDF hyperlink regions were independently checked for the
+exact RGB value (0, 0, 0.5), corresponding to blue!50!black.
+No overfull boxes or unresolved references remain. All 13 pages were rendered
+and visually inspected, including the filled third PDF page and the cover.
+
+EVIDENCE LIMITS
+The update changes presentation only. Correct arithmetic and source agreement
+support the historical calculations. They do not establish a causal Phillips
+curve, identify independent food shocks, prove zero spillover, or estimate the
+effectiveness of a specific policy. The report retains these distinctions.

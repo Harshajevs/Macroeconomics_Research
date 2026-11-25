@@ -1,0 +1,13 @@
+Verification completed 21 November 2026.
+
+123 numerical/document checks pass. Source details, descriptive statistics,
+matched correlations, OLS coefficients, nominal HC3 ranges, influence measures,
+leave-one-out results and complete raw variance allocations were checked.
+The main report contains exactly the five required section headings in order.
+Main-text word count is 3,753 under the scope stated in README.txt and the JSON.
+The main text has 10 full pages; the complete PDF has 14 pages.
+No overfull LaTeX boxes or unresolved references/citations remain.
+All report pages were rendered and visually inspected. The cover, tables,
+mathematical examples, legends, plot labels and page endings were checked.
+The inference caveats are retained. Reproducibility and software checks cannot
+establish causal identification or guarantee statistical coverage in every design.

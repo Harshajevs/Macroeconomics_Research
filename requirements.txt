@@ -1,0 +1,7 @@
+# Versions used for the Stage-4 reproducibility run in the current environment
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.17.0
+statsmodels==0.14.6
+matplotlib==3.10.8
+seaborn==0.13.2

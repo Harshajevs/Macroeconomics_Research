@@ -1,0 +1,26 @@
+Report verification completed 21 November 2026.
+
+NUMBERS AND STRUCTURE
+65 checks pass in verify_report.py, including independent OLS/HC3 calculations,
+complete raw variance allocations, two worked index calculations, key printed
+spillover estimates, source dependency paths, cover details and document length.
+The report compiles without overfull boxes, unresolved citations or references.
+There are ten references. Main text: printed pages 1--10; total PDF: 16 pages.
+Word-count definitions and exact counts are in README.txt and report_verification.json.
+
+VISUAL REVIEW
+All 16 pages were rendered at a 1,450-pixel long-edge size and visually inspected.
+Cover, headings, captions, tables, chart labels, references and appendices are
+legible, with no clipping or overlap. Renders of the delivered PDF match the
+inspected renders byte-for-byte. Vector figures are embedded in the PDF.
+
+RESEARCH VALIDATION
+The report draws on the previously completed source/data/code audit. Its compact
+CSV subset is included; full estimation/retrieval/simulation code remains in the
+separate research checkpoint package. These checks establish reproducibility
+and source consistency, not causal identification or universal inference validity.
+
+STUDENT REVIEW REMAINS
+No independent human approval, AI-percentage certification or submission
+compliance is claimed. Review and revision under the course rule remain the
+responsibility of the named students.

@@ -1,0 +1,3 @@
+# LEGACY — NOT CURRENT EVIDENCE. Retained for audit/history; do not cite as current inferential output.
+statistic,estimate_pp,ci_2_5_pp,ci_97_5_pp,block_length_months,replications,seed,bootstrap_probability_difference_le_zero
+SD(food YoY) - SD(non-food YoY),1.950807,1.171472,2.580136,12,1999,20261114,0.000000

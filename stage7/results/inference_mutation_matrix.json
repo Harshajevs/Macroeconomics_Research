@@ -1,0 +1,58 @@
+[
+  {
+    "mutation": "baseline",
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "killed": null
+  },
+  {
+    "mutation": "null_not_imposed",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  },
+  {
+    "mutation": "wrong_bootstrap_bandwidth",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  },
+  {
+    "mutation": "plus_one_removed",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  },
+  {
+    "mutation": "gaussian_multipliers",
+    "tests": 5,
+    "failures": 1,
+    "errors": 1,
+    "killed": true
+  },
+  {
+    "mutation": "bootstrap_interval_reversed",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  },
+  {
+    "mutation": "varying_candidate_covid_window",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  },
+  {
+    "mutation": "zero_column_removal_disabled",
+    "tests": 5,
+    "failures": 1,
+    "errors": 0,
+    "killed": true
+  }
+]
